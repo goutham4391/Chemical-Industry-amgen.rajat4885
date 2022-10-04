@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+    <g id="Group_773" data-name="Group 773" transform="translate(-1161 -3938.5)">
+        <g id="Ellipse_1" fill="none" stroke="#706f73" data-name="Ellipse 1" transform="translate(1161 3938.5)">
+            <circle cx="9" cy="9" r="9" stroke="none"/>
+            <circle cx="9" cy="9" r="8.5"/>
+        </g>
+        <text id="PRESS_RELEASE" fill="#706f73" data-name="PRESS RELEASE" font-family="Helvetica" font-size="12px" transform="translate(1169 3952)">
+            <tspan x="0" y="0">i</tspan>
+        </text>
+    </g>
+</svg>

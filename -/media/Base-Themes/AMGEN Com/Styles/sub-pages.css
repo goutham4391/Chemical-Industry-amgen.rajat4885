@@ -1,0 +1,1362 @@
+/*Generic Css for sub pages starts*/
+
+.sub-page .main-content-container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.sub-page .inner-headings-container.regional-communication {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.sub-page .main-content-container .white-content .patients-inner-container h6 {
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    color: #0063c3;
+    margin-top: 0;
+}
+
+.sub-page .main-content-container .white-content .patients-inner-container p {
+    font-weight: bold;
+    font-size: 14px;
+    color: #0063c3;
+    border-left: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sub-page .main-content-container .white-content .patients-inner-container p a {
+    font-size: 14px;
+}
+
+.sub-page .main-content-container>.component-content {
+    margin: 60px 0 60px;
+    /***Making It 60px bottom for all ******/
+}
+
+.sub-page .main-content-container h2,
+.sub-page.privacy-statement .main-container-wrapper .quantum-tabs__pane-inner .field-content>h2 {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sub-page.privacy-statement .main-container-wrapper .quantum-tabs__pane-inner .field-content>h2 {
+    padding: 0;
+    border-left: 0;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.sub-page.executive-compensation-landing .main-content-container h2 {
+    color: #000;
+    font-weight: 200;
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+.sub-page .main-content-container h3.media-inquiry,
+.sub-page .main-content-container h3.media-relation,
+.sub-page .main-content-container h3.govt-policy {
+    font-size: 24px;
+    color: #032e44;
+}
+
+.sub-page .main-content-container h3.govt-policy {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.sub-page .main-content-container h3.media-relation {
+    margin-bottom: 10px;
+}
+
+.sub-page .main-content-container h3 {
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    color: #0063c3;
+    font-weight: 600;
+    margin: 45px 0 20px;
+}
+
+.sub-page .main-content-container h5 {
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0063c3;
+    margin: 22px 0;
+}
+
+.sub-page .main-content-container a {
+    color: #0063c3;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.privacy-statement table#calitable td p,
+.privacy-statement table#calitable td ul li {
+    font-size: 0.75rem;
+}
+
+.sub-page .inthis-section .heading-section {
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 20px;
+}
+
+.sub-page .main-content-container a.btn-2 {
+    line-height: 1.33;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.sub-page .main-content-container h2>a {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.sub-page .main-content-container .inthis-section-container {
+    padding: 20px 94px 30px;
+}
+
+.sub-page .main-content-container p sup {
+    line-height: 1;
+}
+
+.sub-page .related-section .row .wb-tiles .wb-content .wb-title a h2 {
+    margin: 0;
+}
+
+.sub-page .inner-headings-container h6,
+.sub-page .inner-headings-container h3 {
+    text-transform: uppercase;
+}
+
+.sub-page .amgen-content-info .content-section {
+    min-height: 167px;
+    height: auto;
+}
+
+.sub-page .amgen-content-info .content-section p.tel-no {
+    font-size: 14px !important;
+    color: #0063c3;
+    font-weight: bold;
+    margin-top: 5px !important;
+}
+
+.sub-page .amgen-content-info .content-section p.mail-info a {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sub-page .left-container .amgen-content-info .content-section {
+    width: 53%;
+}
+
+.sub-page .main-content-container a.quantum-button.center-align-btn.quantum-button--primary {
+    margin-top: 30px;
+}
+
+.sub-page .main-container-wrapper .quantum-tabs.white-bg {
+    padding: 20px 94px 30px;
+}
+
+.sub-page .main-container-wrapper .quantum-tabs.white-bg .quantum-tabs__labels {
+    margin-left: 0;
+    margin-top: 0 !important;
+}
+
+.sub-page .main-container-wrapper .quantum-tabs.white-bg .quantum-tabs__labels-inner {
+    background-color: #fff !important;
+}
+
+.sub-page .main-container-wrapper .quantum-tabs.white-bg .quantum-tabs__pane-inner {
+    padding-top: 0;
+}
+
+.sub-page .main-container-wrapper .quantum-tabs__pane-inner .field-content {
+    position: relative;
+    top: 0;
+}
+
+.sub-page .main-container-wrapper .quantum-tabs.white-bg .quantum-tabs__label--selected .quantum-tabs__label-text,
+.sub-page .main-container-wrapper .quantum-tabs.white-bg .quantum-tabs__label-text:hover {
+    border-bottom-color: #fff;
+}
+
+.sub-page .main-container-wrapper .quantum-tabs__label-text {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: 1.05px;
+    text-align: left;
+    color: #545255;
+}
+
+.sub-page .main-container-wrapper .quantum-tabs__label--selected .quantum-tabs__label-text {
+    color: #0063c3;
+}
+
+.sub-page .main-container-wrapper .faq-accordion-container>.component-content {
+    padding: 40px 0;
+}
+
+.sub-page .main-content-container ol {
+    margin-left: 0;
+    padding-left: 40px;
+}
+
+.sub-page .main-content-container ol li {
+    list-style-position: outside;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #545255;
+    margin-left: 0;
+}
+
+.sub-page .main-content-container .content ol li,
+.sub-page .main-content-container .rich-text ol li,
+.sub-page .main-content-container .content ul li,
+.sub-page .main-content-container .rich-text ul li {
+    list-style-type: inherit;
+}
+
+.sub-page ol.counter-list {
+    counter-reset: foo;
+}
+
+.sub-page ol li.decimal.increment-three::before {
+    counter-increment: foo;
+    content: "3." counter(foo) " ";
+    list-style-type: none;
+    list-style: initial;
+    margin-left: -32px;
+}
+
+.sub-page ol.lower-alpha li {
+    list-style-type: lower-alpha;
+}
+
+.sub-page .main-content-container ol li ul,
+.sub-page .main-content-container ol li ol {
+    padding-left: 18px;
+}
+
+.sub-page .main-content-container ol li ol li {
+    list-style: decimal;
+}
+
+.sub-page .main-content-container ol li ul li {
+    list-style: disc;
+}
+
+.sub-page .main-content-container .faq-accordion-container {
+    padding: 0 94px;
+}
+
+.sub-page .main-content-container .faq-accordion-container {
+    padding: 0 94px;
+}
+
+.sub-page .main-content-container .faq-accordion-container>.component-content {
+    padding: 0 0 40px;
+}
+
+.sub-page .main-content-container .left-container .faq-accordion-container>.component-content {
+    padding: 20px 0 60px;
+}
+
+.sub-page i.fa-file-pdf-o,
+.sub-page .number-txt {
+    float: left;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.sub-page ul.pdf-list-section li .pdf-name sup {
+    line-height: .75;
+}
+
+.sub-page .pdf-name,
+.sub-page .content-title {
+    display: block;
+    overflow: hidden;
+    margin-right: 0;
+}
+
+.sub-page .pdf-name {
+    line-height: 20px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: condensed;
+}
+
+.sub-page ul.pdf-list-section {
+    padding: 0;
+    margin: 0;
+}
+
+.sub-page ul.pdf-list-section li {
+    list-style: none !important;
+    padding-top: 1.125rem;
+}
+
+.sub-page .image-content-wrapper {
+    float: left;
+    margin-right: 40px;
+}
+
+.sub-page .amgen-content-info {
+    margin-bottom: 40px;
+    height: 100%;
+}
+
+.sub-page .amgen-content-info:nth-child(2) {
+    padding-left: 20px;
+}
+
+.sub-page .innovation-efficiency {
+    max-width: 375px;
+}
+
+.sub-page .spotlight-tiles {
+    padding: 0;
+}
+
+.sub-page .related-section .related-section-view-more .view-all-link {
+    display: none;
+}
+
+.sub-page .main-content-container h3.govt-policy+.patients-inner-container:nth-of-type(2) {
+    padding-bottom: 30px;
+}
+
+.sub-page .related-link-wrapper ul {
+    padding: 0;
+}
+
+.sub-page .related-link-wrapper ul li {
+    list-style: none !important;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0063c3;
+    font-stretch: condensed;
+    padding: .5rem 0 .5rem 0;
+}
+
+.sub-page .related-link-wrapper ul li a {
+    color: #0063c3;
+    font-family: Helvetica;
+    font-size: 16px;
+    text-decoration: none;
+    font-stretch: condensed;
+}
+
+.sub-page .related-link-wrapper ul li a::after {
+    content: ">";
+    font-size: 14px;
+    vertical-align: middle;
+    position: relative;
+    left: 8px;
+}
+
+.sub-page .m-video-feature .video-wrapper.mv-video {
+    position: relative;
+    padding-bottom: 54.25%;
+    padding-top: 25px;
+    max-width: 868px;
+    max-height: 468px;
+}
+
+.sub-page .m-video-feature .mv-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.global-patient-safety-page .hero-banner-text-container {
+    background-color: #fff;
+}
+
+.sub-page table#safety-table td {
+    font-size: 14px;
+    padding: 14px 8px 16px;
+}
+
+.sub-page .panel-bg {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+    background: #f2f2f2;
+    color: #333333;
+}
+
+.sub-page .reshorizontal-line {
+    margin: 20px 0px;
+    border: solid #dddddd;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+}
+
+.sub-page .rich-text table.blue-table.principle-table td.table-header {
+    padding: 10px !important;
+    text-align: center !important;
+}
+
+.sub-page .rich-text table.blue-table.principle-table td {
+    border-right: none !important;
+}
+
+.m-tile-section.m-tile-section-medium .l-block-item .image-area {
+    background-size: contain;
+    background-position: center center;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 12px;
+    background-repeat: no-repeat;
+}
+
+
+/*Generic Css for sub pages ends*/
+
+
+/*Summary of data page css*/
+
+.summary-of-data .stacktable.large-only {
+    display: none;
+}
+
+.sub-page .summary-content-container h3.orange,
+.sub-page .summary-content-container tr.orange td,
+.sub-page .summary-content-container tr.orange {
+    background-color: #ed9920;
+}
+
+.sub-page .summary-content-container h3.darkgreen,
+.sub-page .summary-content-container tr.darkgreen td,
+.sub-page .summary-content-container tr.darkgreen {
+    background-color: #88c565;
+}
+
+.sub-page .summary-content-container h3.lightgreen,
+.sub-page .summary-content-container tr.lightgreen td,
+.sub-page .summary-content-container tr.lightgreen {
+    background-color: #22bbb5;
+}
+
+.sub-page .summary-content-container h3.darkblue,
+.sub-page .summary-content-container tr.darkblue td,
+.sub-page .summary-content-container tr.darkblue {
+    background-color: #005580;
+}
+
+.sub-page .summary-content-container h3.grey,
+.sub-page .summary-content-container tr.grey td,
+.sub-page .summary-content-container tr.grey {
+    background-color: #989a9d;
+}
+
+.sub-page .summary-content-container h3.blue,
+.sub-page .summary-content-container tr.blue td,
+.sub-page .summary-content-container tr.blue {
+    background-color: #007cc1;
+}
+
+.sub-page .summary-content-container h3 {
+    margin: 5px 0 10px;
+    padding: 5px;
+}
+
+.sub-page .summary-content-container h3 a {
+    padding: 5px 10px 5px 15px;
+}
+
+.sub-page .summary-content-container table tbody tr {
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important;
+}
+
+.sub-page .summary-content-container h3,
+.sub-page .summary-content-container h3 a {
+    font-size: 28px;
+    font-weight: 200;
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    line-height: normal;
+}
+
+.sub-page .summary-content-container h3 a {
+    display: block;
+}
+
+.sub-page .summary-content-container .reporting-summary-row.head td {
+    color: #fff !important;
+}
+
+.sub-page .summary-content-container .reporting-summary-row td.col3 {
+    text-align: left;
+    border-right: 2px;
+    border-right-style: dotted;
+    border-right-color: #dadfd8;
+}
+
+.sub-page .field-content .showhideall {
+    text-align: right;
+}
+
+.sub-page .summary-content-container .accordion {
+    margin: 5px 0px;
+    padding-bottom: 30px;
+}
+
+.sub-page .summary-content-container .accordion h3 {
+    position: relative;
+    padding: 2px 60px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0px 1px 2px 0px;
+}
+
+.sub-page .summary-content-container .accordion h3:hover {
+    cursor: pointer;
+}
+
+.sub-page .summary-content-container .accordion h3 .right {
+    position: absolute;
+    text-align: right;
+    right: 20px;
+    top: 4px;
+}
+
+.sub-page .summary-content-container table.accordion {
+    border-collapse: collapse;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.sub-page .summary-content-container table.accordion td {
+    font-size: 14px;
+    padding: 5px 5px;
+    color: #545255;
+    line-height: 25px;
+    border-style: solid;
+    border-color: #dadfd8;
+    border-width: 0px 1px 1px 0px;
+}
+
+.sub-page .left-container .rich-text.white-content+.rich-text+.main-content-container>.component-content {
+    margin: 0;
+    padding: 0;
+}
+
+.sub-page .pdf-version {
+    right: 100px;
+    top: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.sub-page .notes.accordion .notes-content {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #545255;
+    /*font-weight: normal;*/
+}
+
+.container.main-content-container .left-container .quantum-tabs .quantum-tabs__labels ul li {
+    padding: 0;
+}
+
+.sub-page .main-content-container .white-content p {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #545255;
+    margin: 23px 0;
+}
+
+.sub-page .main-content-container .white-content .blockquote {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sub-page .main-content-container h3.media-inquiry {
+    margin-bottom: 18.5px;
+}
+
+.sub-page .main-content-container .white-content p.reminder {
+    font-size: 20px;
+}
+
+.sub-page .main-content-container .white-content p.corp-affair {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.sub-page .main-content-container h1.field-title {
+    font-size: 20px;
+    font-weight: 600;
+    border-left: none;
+    padding-left: 0;
+    line-height: 1.15;
+}
+
+.sub-page .inthis-section .heading-section img {
+    float: right;
+    position: relative;
+    top: 0px;
+    margin-right: -20px;
+}
+
+
+/* Amgen Stories related page starts */
+
+.sub-page .main-content-container .white-content .story-main-content p {
+    font-size: 1.125rem;
+    line-height: 1.56;
+}
+
+.sub-page .main-content-container .white-content .story-main-content h2 {
+    font-size: 1.375rem;
+    line-height: 1.36;
+    font-weight: bold;
+    color: #545255;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.sub-page .main-content-container .white-content .story-main-content .story-image-container:first-child {
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+.sub-page .main-content-container .white-content .story-main-content .story-image-container:last-child {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.sub-page .main-content-container .white-content .story-main-content .row.column-splitter.story-content-breaker>div:last-child {
+    padding-left: 20px;
+}
+
+.sub-page .main-content-container .white-content .story-main-content .row.column-splitter.story-content-breaker {
+    padding-top: 20px;
+}
+
+.sub-page .main-content-container .white-content .story-main-content .row.column-splitter.story-content-breaker>div:last-child h2 {
+    margin-top: 0px;
+}
+
+.sub-page .main-content-container .white-content .story-main-content .row.column-splitter>.col-md-4 {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.sub-page .main-content-container .white-content .story-main-content .row.column-splitter>.col-md-4:first-child {
+    padding-left: 0px;
+    padding-right: 6px;
+}
+
+.sub-page .main-content-container .white-content .story-main-content .row.column-splitter>.col-md-4:last-child {
+    padding-left: 6px;
+    padding-right: 0px;
+}
+
+
+/* Amgen Stories related page ends */
+
+.sub-page .left-container table td {
+    font-size: 18px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #545255;
+    padding: 14px 18px 16px;
+}
+
+.sub-page .left-container table td>p {
+    font-size: 18px;
+    line-height: 22px;
+    vertical-align: middle;
+    color: #545255;
+    margin: 0px !important;
+    padding: 0px;
+}
+
+.sub-page .right-nav .navigation .level1.submenu>ul {
+    margin-left: 26px;
+}
+
+.sub-page .right-nav .navigation .level0.submenu .navigation-title>a {
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 15px;
+    font-family: inherit;
+    font-stretch: condensed;
+    color: #0063c3;
+    margin-right: 0px;
+}
+
+.sub-page .right-nav .navigation .level0.submenu .navigation-title>a.external-link {
+    background-image: url("../../../Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icons/external-link-icon.svg");
+}
+
+.sub-page .right-nav .navigation .level0.submenu .navigation-title>a.pdf-link {
+    background-image: url(../../../Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icons/download-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 99% 10px;
+}
+
+.sub-page .right-nav .navigation .level1.submenu ul {
+    padding-left: 28px;
+}
+
+.sub-page .related-links-container {
+    background: linear-gradient(#edf2f7 38%, #fff, #fff 20%) no-repeat;
+}
+
+.sub-page :not(.related-links)+.related-links-container {
+    background: #fff !important;
+}
+
+
+/* Sub-pages content title styles */
+
+.sub-page .main-content-container .content-header,
+.sub-page .main-content-container h1 {
+    color: #0063c3;
+    padding-left: 19px;
+    border-left: 1px solid #dadada;
+    font-size: 24px;
+    font-family: "Open Sans", Helvetica, Verdana, Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.sub-page .main-content-container h2.key-contact {
+    color: #0063c3;
+    padding-left: 19px;
+    border-left: 1px solid #dadada;
+    font-size: 30px;
+    font-family: "Open Sans", Helvetica, Verdana, Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 10px 0;
+}
+
+.sub-page.amgen-perspectives .main-content-container h2 {
+    color: #0063c3;
+    padding-left: 19px;
+    border-left: 1px solid #dadada;
+    font-size: 30px;
+    font-family: "Open Sans", Helvetica, Verdana, Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 10px 0;
+}
+
+.sub-page .main-content-container .white-content-right>div {
+    background: #fff;
+    padding: 15px;
+}
+
+.sub-page .main-content-container .right-nav .white-content-right>div {
+    margin-top: 20px;
+    margin-left: 14px;
+}
+
+
+/* Related Link CTAs for tablet */
+
+.sub-page .main-content-container .quantum-cta.amgen-landing a {
+    padding-right: 0px;
+}
+
+
+/* Related Link CTAs for tablet */
+
+.sub-page .related-links-container .col-6 .quantum-cta.amgen-landing a {
+    width: max-content;
+}
+
+.sub-page .related-links-container .col-6 .quantum-cta.amgen-landing {
+    width: max-content;
+    margin: auto;
+}
+
+.sub-page .related-links-container .col-6 {
+    background-color: #fff;
+}
+
+.sub-page .main-content-container a.heading-section {
+    padding-right: 20px;
+}
+
+.sub-page .main-content-container a.heading-section.pdf-image {
+    background-image: url(../../../Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icons/pdf-download-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 7px;
+    padding-right: 40px;
+}
+
+.sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>.col-md-6.col-lg-6.col-xl-6 {
+    margin-right: 0px;
+    padding-right: 7px;
+}
+
+.sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>.col-md-6.col-lg-6.col-xl-6:last-child {
+    padding-right: 0px;
+    padding-left: 7px;
+}
+
+.sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>.col-md-6.col-lg-6.col-xl-6 .quantum-cta.amgen-landing a {
+    height: 100%;
+}
+
+.sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>.col-md-6.col-lg-6.col-xl-6 .quantum-cta.amgen-landing .quantum-cta__image-wrap {
+    height: 100%;
+    width: 100%;
+}
+
+.sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>.col-md-6.col-lg-6.col-xl-6 .quantum-cta.amgen-landing .quantum-cta__image {
+    height: 100%;
+    object-fit: cover;
+}
+
+.sub-page .inthis-section .heading-section img {
+    position: absolute;
+    top: 7px;
+    left: 88%;
+}
+
+.sub-page .main-content-container h1 {
+    font-size: 30px;
+}
+
+.sub-page .main-content-container h2.content-header {
+    font-size: 24px;
+}
+
+
+/* Subpage tables */
+
+.sub-page table#TableGrid tr td:last-child {
+    border-right: none;
+}
+
+.sub-page table tr td:last-child {
+    border-right: none;
+}
+
+.sub-page table {
+    border: none !important;
+}
+
+.sub-page .rich-text table#TableGrid tr:nth-child(even) {
+    background: none !important;
+}
+
+.sub-page .table-responsive {
+    border: none;
+}
+
+.sub-page .rich-text table#TableGrid tr:last-child {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.sub-page .main-content-container .inthis-section-container a.heading-section.media-type {
+    background-image: url(../../../Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icons/download-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 7px;
+}
+
+
+/*DESKTOP styles starts here*/
+
+@media screen and (min-width: 1024px) {
+    .sub-page :not(.related-links)+.related-links-container {
+        padding-right: 94px;
+        padding-left: 94px;
+    }
+    .sub-page .related-links-container>.component-content {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>div {
+        margin-right: 7px;
+    }
+    .sub-page.global-patient-safety-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>div {
+        margin-right: 9px;
+    }
+    .sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>div:last-child {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sub-page .safety-culture.col-lg-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /*Thumbnail images for subpages*/
+    .sub-page .thumbnail-image-section {
+        margin: 0;
+    }
+    .sub-page .thumbnail-image-section>div {
+        padding: 0;
+    }
+    /*Thumbnail images for subpages*/
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .sub-page .amgen-content-info:nth-child(2) {
+        padding-left: 18px;
+    }
+    .sub-page .main-content-container .inthis-section-container a.heading-section.media-type {
+        background-position: 98% 7px !important;
+    }
+    /*Image tile component in left container css*/
+    .sub-page.l-container_img-tile .left-container .amgen-content-info .image-section {
+        width: 175px;
+        height: 124px;
+    }
+    .sub-page.l-container_img-tile .left-container .amgen-content-info .content-section {
+        width: 50%;
+        padding: 20px;
+    }
+    /*Image tile component in left container css*/
+}
+
+
+/* Media query to target both desktop and tablet starts here*/
+
+@media screen and (min-width: 768px) {
+    /******************* Sub-page Starts*************************/
+    .sub-page .inthis-section h1 {
+        color: #0063c3;
+        padding-left: 19px;
+        margin-bottom: 41px;
+    }
+    .sub-page .inthis-section .heading-section em {
+        float: right;
+        margin-right: -20px;
+    }
+    .sub-page .related-links-container .rich-text.white-content {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .sub-page-countries-popup .quantum-modal .quantum-modal__dialog {
+        width: 90%;
+        position: relative;
+        text-align: left;
+        vertical-align: middle;
+        display: inline-block;
+        overflow: auto;
+        padding: 25px 25px 0;
+        border-bottom: 25px solid transparent;
+        max-width: 90%;
+        max-height: 90%;
+        background: #fff;
+        cursor: auto;
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    /*Generic css for sub pages starts*/
+    .sub-page .main-content-container>.component-content {
+        margin: 40px 0 40px;
+        padding: 0 40px;
+    }
+    .sub-page .main-content-container h2,
+    .sub-page.privacy-statement .main-container-wrapper .quantum-tabs__pane-inner .field-content>h2 {
+        font-size: 24px;
+        margin: 25px 0 15px;
+    }
+    .sub-page .main-content-container h3 {
+        font-size: 36px;
+    }
+    .sub-page .main-content-container ul li,
+    .sub-page .main-content-container ol li,
+    .sub-page .main-content-container a {
+        font-size: 18px;
+    }
+    .sub-page .main-content-container .faq-accordion-container {
+        padding: 0 58px;
+    }
+    .sub-page .main-content-container .left-container .faq-accordion-container>.component-content {
+        padding: 20px 0 40px;
+    }
+    .sub-page .main-container-wrapper .quantum-tabs.white-bg {
+        padding: 15px 58px 30px;
+    }
+    .sub-page .main-container-wrapper .quantum-tabs.white-bg .quantum-tabs__label-text {
+        padding: 4px 14px;
+    }
+    .sub-page .main-container-wrapper .quantum-tabs.white-bg .quantum-tabs__pane-inner {
+        padding-top: 0;
+    }
+    .sub-page .amgen-content-info.content-info:first-child,
+    .sub-page .amgen-content-info.content-info:nth-child(2) {
+        margin-bottom: 0;
+    }
+    .sub-page .amgen-content-info .content-section {
+        left: 3%;
+        margin-bottom: -65px;
+    }
+    .sub-page.l-container_img-tile .left-container .amgen-content-info .content-section {
+        top: -40px;
+        margin-bottom: -50px;
+    }
+    .sub-page.l-container_img-tile .left-container .amgen-content-info .content-section {
+        margin-bottom: -50px;
+    }
+    .sub-page .left-container .amgen-content-info .content-section {
+        width: 95%;
+    }
+    .sub-page .pdf-version {
+        right: 48px;
+        top: 142px;
+    }
+    .sub-page span.pdf-version a {
+        font-size: 14px;
+    }
+    .sub-page .summary-content-container table.accordion tr th,
+    .sub-page .summary-content-container table.accordion td {
+        padding: 9px 10px;
+    }
+    .sub-page.l-container_img-tile .left-container .amgen-content-info .image-section {
+        overflow: hidden;
+    }
+    .sub-page .inthis-section .heading-section img {
+        left: 83%;
+    }
+    .sub-page .main-content-container>.component-content .related-section {
+        padding: 0;
+    }
+    .sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>div {
+        margin-right: 7px;
+    }
+    .sub-page .related-links-container>.component-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>div:last-child {
+        margin-right: 0px;
+    }
+    .sub-page .inner-headings-container.related-links.rl-title>.component-content {
+        margin: 0 auto;
+    }
+    /*Generic css for sub pages ends*/
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1024px) {
+    .sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>div .quantum-cta.amgen-landing {
+        height: 248px !important;
+    }
+    /*Generic css for sub pages starts*/
+    .sub-page .main-content-container>.component-content {
+        padding: 0 20px;
+    }
+    .sub-page .main-content-container .inthis-section-container .main-container-wrapper {
+        padding: 0;
+    }
+    .sub-page .inner-headings-container.related-links.rl-title>.component-content {
+        margin: 0 auto;
+    }
+    /*Generic css for sub pages ends*/
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .sub-page .main-content-container>.component-content {
+        padding: 0 20px;
+    }
+    .sub-page .inner-headings-container.related-links.rl-title>.component-content {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    .sub-page .inthis-section .heading-section img {
+        left: 91%;
+    }
+}
+
+
+/*Mobile styles starts here*/
+
+@media screen and (max-width: 767px) {
+    .sub-page .inthis-section em {
+        margin-right: -20px;
+    }
+    .sub-page .main-content-container .content-header,
+    .sub-page .main-content-container h1,
+    .sub-page.amgen-perspectives .main-content-container h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .sub-page .main-content-container .right-nav .white-content-right>div {
+        margin-left: 0px;
+    }
+    .sub-page .main-content-container .right-nav .white-content-right>div {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    /* Amgen stories page starts */
+    .sub-page .main-content-container .white-content .story-main-content .story-image-container:first-child {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-bottom: 10px;
+    }
+    .sub-page .main-content-container .white-content .story-main-content .story-image-container:last-child {
+        padding-left: 0px;
+        padding-right: 0;
+        margin-top: 10px;
+    }
+    .sub-page .main-content-container .white-content .story-main-content .row.column-splitter.story-content-breaker>div:last-child {
+        padding-left: 0px;
+    }
+    .sub-page .main-content-container .white-content .story-main-content .row.column-splitter>.col-md-4 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 15px;
+    }
+    .sub-page .main-content-container .white-content .story-main-content .row.column-splitter>.col-md-4:last-child {
+        margin-bottom: 5px;
+    }
+    /* Amgen stories page ends */
+    .sub-page .related-link-wrapper ul {
+        margin: 0;
+    }
+    .sub-page :not(.related-links)+.related-links-container>.component-content>.row.column-splitter>div .quantum-cta.amgen-landing {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .sub-page :not(.related-links)+.access-to-medicine.related-links-container>.component-content>.row.column-splitter>div .quantum-cta.amgen-landing,
+    .sub-page :not(.related-links)+.access-to-medicine.related-links-container>.component-content>.row.column-splitter>.col-md-6.col-lg-6.col-xl-6 {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .sub-page .access-to-medicine .amgen-landing {
+        height: 300px;
+    }
+    .sub-page .main-content-container .inthis-section-container a.heading-section {
+        background-position: 100% 7px !important;
+    }
+    .sub-page .innovation-efficiency {
+        max-width: 100%;
+        float: none !important;
+        padding: 0;
+    }
+    .sub-page .innovation-efficiency img {
+        width: 100%;
+    }
+    .sub-page .patients-inner-container .col-6 {
+        max-width: 50%;
+    }
+    .sub-page .main-content-container h3.media-inquiry,
+    .sub-page .main-content-container h3.media-relation,
+    .sub-page .main-content-container h3.govt-policy {
+        line-height: 1.17;
+    }
+    .sub-page .main-content-container h3.media-relation {
+        margin-bottom: 0;
+    }
+    .sub-page .main-content-container .white-content .patients-inner-container h6 {
+        line-height: 1.4;
+        margin-top: 30px;
+        margin-bottom: 13px;
+    }
+    .sub-page .amgen-content-info.content-info:first-child,
+    .sub-page .amgen-content-info.content-info:nth-child(2) {
+        margin-top: 0;
+    }
+    .sub-page .amgen-content-info.content-info {
+        padding: 0 !important;
+    }
+    .sub-page .amgen-content-info .content-section p.mail-info a {
+        word-break: break-all;
+    }
+    .sub-page .amgen-content-info.content-info .image-section {
+        width: 100% !important;
+    }
+    .sub-page .main-content-container {
+        max-width: 100%;
+    }
+    .sub-page .main-content-container>.component-content {
+        margin: 40px auto;
+        padding: 0 30px;
+    }
+    .sub-page .main-content-container .rich-text.white-content,
+    .sub-page .main-content-container .inthis-section-container {
+        padding: 15px 20px;
+    }
+    .sub-page .main-content-container .inthis-section-container .main-container-wrapper {
+        padding: 0;
+    }
+    .sub-page .white-content-right {
+        padding: 0;
+    }
+    .sub-page .inthis-section .row .col-sm-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sub-page .inthis-section h1 {
+        color: #0063c3;
+        padding-left: 19px;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 36px;
+    }
+    .sub-page.how-we-operate-page .related-links-container>.component-content {
+        padding-bottom: 5px;
+    }
+    .sub-page.global-patient-safety-page .hero-banner-text-container .quantum-hero__text .quantum-button {
+        width: 43%;
+    }
+    .sub-page.clinical-trails-page .related-links-container>.component-content {
+        padding-bottom: 30px;
+    }
+    .sub-page .main-content-container .faq-accordion-container {
+        padding: 0 20px;
+    }
+    .sub-page .main-content-container .left-container .faq-accordion-container>.component-content {
+        padding: 20px 0 40px;
+    }
+    .sub-page .inthis-section em {
+        float: right;
+    }
+    .sub-page .inthis-section .heading-section .field-title {
+        margin-right: 20px;
+    }
+    .sub-page .main-container-wrapper .quantum-tabs.white-bg {
+        padding: 15px 20px;
+    }
+    .sub-page .main-container-wrapper .quantum-tabs .faq-accordion-container {
+        padding: 0;
+    }
+    .sub-page .related-section {
+        padding: 0 !important;
+    }
+    .sub-page .m-video-feature .video-wrapper.mv-video {
+        height: 100%;
+        max-width: 100%;
+    }
+    .sub-page .main-content-container .row.column-splitter.no-wrap-flex {
+        flex-wrap: wrap !important;
+    }
+    .sub-page .summary-content-container table.accordion tr th,
+    .sub-page .summary-content-container table.accordion td {
+        padding: 9px 10px;
+    }
+    .sub-page .pdf-version {
+        display: none;
+    }
+    .sub-page .pdf-md-version {
+        display: inline-block !important;
+    }
+    .sub-page .showhideall {
+        display: inline-block;
+    }
+    .sub-page .amgen-content-info .image-section {
+        width: 100%;
+    }
+    .sub-page .amgen-content-info {
+        padding: 0 !important;
+    }
+    .sub-page .amgen-content-info .content-section {
+        margin-bottom: -47px;
+        height: 100%;
+    }
+    .sub-page .left-container .amgen-content-info .content-section {
+        width: 95%;
+    }
+    .sub-page .main-content-container .white-content-right>div {
+        padding: 15px 20px;
+    }
+    .sub-page .inner-headings-container.related-links.rl-title {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sub-page .related-links-container.rl-content .amgen-landing {
+        padding: 0;
+    }
+    /* Amgen-foundation Video starts */
+    .sub-page .m-video-feature.amgen-foundation-video .video-wrapper>iframe {
+        height: auto;
+    }
+    .sub-page .m-video-feature.amgen-foundation-video .column:not(.l-video) .btn-2 {
+        margin-left: 5%;
+    }
+    /* Amgen-foundation Video ends */
+    .sub-page .inner-headings-container.related-links.rl-title>.component-content {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .sub-page .inthis-section .heading-section .field-title {
+        margin-right: 60px;
+        display: inline-block;
+    }
+    .sub-page .inthis-section .heading-section img {
+        /* top: 0;
+        margin-right: -20px; */
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sub-page .image-content-wrapper {
+        float: none;
+        margin-right: 0;
+    }
+    .sub-page .image-content-wrapper img {
+        width: 100%;
+    }
+    .sub-page .main-container-wrapper .quantum-tabs__panes .quantum-tabs__pane:nth-child(3) .quantum-tabs__pane-inner .field-content {
+        top: 0;
+    }
+    /*sub page css*/
+    .sub-page .inthis-section h1.field-heading {
+        margin-top: 20px;
+    }
+    /*sub page css*/
+}
+
+@media only screen and (max-device-height: 812px) and (min-device-width: 375px) and (-webkit-device-pixel-ratio: 3) {
+    .sub-page .main-content-container h1,
+    .sub-page.amgen-perspectives .main-content-container h2 {
+        font-size: 27px;
+    }
+}

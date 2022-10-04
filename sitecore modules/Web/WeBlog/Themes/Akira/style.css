@@ -1,0 +1,269 @@
+.wb-entry-add-comment label {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+}
+.wb-entry-add-comment input,
+.wb-entry-add-comment textarea {
+  margin-bottom: 0.5em;
+}
+.wb-entry-add-comment input {
+  width: 300px;
+}
+.wb-entry-add-comment textarea {
+  width: 600px;
+}
+.wb-entry-add-comment input[type='submit'] {
+  width: 100px;
+}
+@media all and (max-width: 900px) {
+  .wb-entry-add-comment textarea {
+    width: 300px;
+  }
+}
+header,
+footer,
+main,
+aside,
+div {
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #222222;
+}
+body {
+  margin: 0;
+}
+a {
+  color: #222222;
+}
+a:hover {
+  text-decoration: underline;
+  color: #a2a2a2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+h1 a,
+h2 a,
+header a {
+  text-decoration: none;
+}
+h1 a:hover,
+h2 a:hover,
+header a:hover {
+  text-decoration: underline;
+}
+header#top {
+  font-size: 2em;
+  padding: 1em;
+  background: #757b8f;
+  background: url("img/atlas-eye-detail.png") no-repeat right top, linear-gradient(to left, #000000, #757b8f);
+}
+header#top a {
+  color: #eaedf4;
+  text-transform: uppercase;
+}
+.wb-wrapper {
+  margin: auto;
+  max-width: 1200px;
+  display: table;
+}
+main {
+  padding: 1em;
+  width: 100%;
+  display: table-cell;
+}
+aside {
+  min-width: 300px;
+  padding: 1em;
+  display: table-cell;
+}
+footer {
+  box-shadow: 0 10px 10px -10px #757b8f inset;
+  height: 3em;
+  margin-top: 2em;
+  padding: 1em;
+  font-size: 0.8em;
+  text-align: right;
+}
+.credit {
+  margin: 0;
+}
+.thumbnail {
+  float: right;
+  margin: 0 0 2em 2em;
+}
+.wb-entry-list section {
+  margin-bottom: 2em;
+  clear: both;
+}
+.wb-entry-list h2 {
+  margin-bottom: 0.3em;
+}
+.wb-details {
+  color: #7b7b7b;
+  font-size: 0.85em;
+}
+.wb-read-more {
+  font-size: 0.9em;
+  color: #7b7b7b;
+}
+.wb-comment-count {
+  font-size: 0.9em;
+  float: right;
+  color: #7b7b7b;
+}
+article .thumbnail {
+  float: right;
+  margin: 0 0 2em 2em;
+}
+article .wb-comment-author {
+  color: #7b7b7b;
+}
+article .wb-datetime {
+  font-size: 0.9em;
+  float: right;
+  color: #7b7b7b;
+}
+.wb-comment-alternate {
+  background-color: #eeeeee;
+}
+.wb-error {
+  color: red;
+}
+.wb-comment-count {
+  padding-left: 21px;
+  background: url("img/comment.png") left center no-repeat;
+}
+.wb-loading-animation {
+  padding-left: 21px;
+  background: url("img/loading.gif") left center no-repeat;
+}
+.wb-panel ul {
+  padding: 0;
+}
+.wb-panel li {
+  list-style: none;
+  margin-left: 1em;
+}
+.wb-feed-text {
+  padding-left: 21px;
+  background: url("img/rss.png") left center no-repeat;
+}
+.wb-recent-comments .wb-details {
+  margin-top: 0.75em;
+}
+.wb-archive .wb-month li,
+.wb-archive .wb-entries li {
+  margin-left: 1em;
+}
+.wb-archive .wb-entries {
+  padding-left: 21px;
+  margin-bottom: 0.5em;
+}
+.wb-archive .wb-entries li {
+  list-style: circle;
+}
+.wb-archive .wb-year-container {
+  margin-bottom: 1em;
+}
+.wb-archive a.collapsed {
+  padding-left: 16px;
+  background: url("img/archive-expand.png") left center no-repeat;
+}
+.wb-archive a.expanded {
+  padding-left: 16px;
+  background: url("img/archive-collapse.png") left center no-repeat;
+}
+.wb-entry-categories li,
+.wb-entry-tags li {
+  display: inline;
+}
+.wb-entry-categories li a,
+.wb-entry-tags li a {
+  text-decoration: underline;
+}
+.wb-tag-cloud .wb-weight1 {
+  font-size: 1.3em;
+}
+.wb-tag-cloud .wb-weight2 {
+  font-size: 1.1em;
+}
+.wb-tag-cloud .wb-weight3 {
+  font-size: 0.9em;
+}
+.wb-tag-cloud .wb-weight4 {
+  font-size: 0.8em;
+}
+.wb-tag-cloud .wb-weight5 {
+  font-size: 0.7em;
+}
+.wb-tag-cloud a {
+  margin-right: 0.25em;
+}
+.wb-entry-categories h3 {
+  margin-top: 0.5em;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: italic;
+  display: inline-block;
+}
+.wb-entry-categories ul {
+  padding: 0;
+  display: inline;
+}
+.wb-entry-categories li {
+  margin-left: 0.5em;
+}
+.wb-entry-comments li {
+  padding: 0.5em;
+}
+.wb-entry-comments p {
+  margin: 0.25em 0;
+}
+.wb-entry-navigation-label {
+  margin: 0;
+  font-size: 0.8em;
+  color: #6f6f6f;
+}
+.wb-entry-navigation-previous,
+.wb-entry-navigation-next {
+  font-variant: small-caps;
+  text-decoration: none;
+}
+.wb-entry-navigation-previous .wb-entry-navigation-title,
+.wb-entry-navigation-next .wb-entry-navigation-title {
+  margin: 0;
+  font-variant: normal;
+  text-decoration: underline;
+}
+.wb-entry-navigation-previous {
+  width: 49.5%;
+  display: inline-block;
+}
+.wb-entry-navigation-next {
+  width: 49.5%;
+  text-align: right;
+  display: inline-block;
+}
+@media all and (max-width: 900px) {
+  .wb-wrapper {
+    display: block;
+  }
+  main {
+    display: block;
+    width: 100%;
+  }
+  aside {
+    display: block;
+    width: 100%;
+  }
+}

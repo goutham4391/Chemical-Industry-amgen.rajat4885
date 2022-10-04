@@ -1,0 +1,342 @@
+@media screen and (min-width: 1024px) {
+    /*megamenu styles starts here*/
+    .back-bttn {
+        display: none;
+    }
+    .quantum-header {
+        position: fixed !important;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .fixed-nav .quantum-header {
+        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    }
+    .fixed-nav .quantum-search-suggest {
+        border-top: 0px;
+    }
+    .quantum-megamenu a.quantum-megamenu__menu-link[href='']:hover {
+        text-decoration: none;
+        cursor: default;
+    }
+    .quantum-megamenu a.quantum-megamenu__link {
+        text-decoration: none;
+        color: #0063c3;
+        font-style: normal;
+        line-height: normal;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 10px 6px;
+        font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .right-links .quantum-megamenu__link .quantum-megamenu__link-text {
+        display: inline-flex;
+    }
+    .right-links .quantum-megamenu__link .quantum-megamenu__link-text .fa.fa-external-link {
+        padding: 0 5px;
+        margin-top: 2px;
+    }
+    .quantum-megamenu__list-item a.quantum-megamenu__link:hover {
+        color: #0063c3 !important;
+    }
+    .quantum-container--primary .quantum-megamenu__list-item:hover>.quantum-megamenu__link {
+        background: #032e44 !important;
+        color: #fff !important;
+        -webkit-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+    .quantum-container--primary .quantum-megamenu__list-item--dropdown-visible .quantum-megamenu__link {
+        background: #032e44 !important;
+        color: #fff !important;
+    }
+    .quantum-megamenu__menu {
+        border-bottom: 0px !important;
+        background: rgba(3, 46, 68, 0.95) !important;
+        max-width: 1110px !important;
+        padding-bottom: 10px !important;
+    }
+    .quantum-megamenu__menu-link {
+        color: #ffffff !important;
+        padding: 5px 43px !important;
+        font-size: 14px !important;
+        font-weight: bold;
+        font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    }
+    .quantum-megamenu__menu {
+        justify-content: inherit !important;
+        padding-left: 17px !important;
+        padding-top: 30px !important;
+    }
+    .quantum-megamenu__menu-link:hover {
+        background: inherit !important;
+        text-decoration: underline;
+    }
+    .quantum-megamenu__menu-list-item .desktop-submenu-right-icon {
+        background-image: none !important;
+    }
+    a.sub-menu-item {
+        font-size: 12px !important;
+        position: relative;
+        left: 25px;
+        font-weight: 500;
+    }
+    .quantum-megamenu__list-item:nth-child(odd) .quantum-megamenu__menu-column {
+        width: 30%;
+    }
+    .quantum-megamenu__list-item:nth-child(even) .quantum-megamenu__menu-column {
+        width: 33%;
+    }
+    .quantum-container--primary .quantum-megamenu__list-item.right-links:hover>.quantum-megamenu__link {
+        background: inherit !important;
+        color: #0063c3 !important;
+    }
+    .quantum-container--primary .quantum-megamenu__list-item.right-links-web:hover>.quantum-megamenu__link,
+    .quantum-container--primary .quantum-megamenu__list-item.right-links-search:hover>.quantum-megamenu__link {
+        background: inherit !important;
+    }
+    .mega-menu-container .quantum-header__right {
+        width: 86.5%;
+    }
+    .mega-menu-innerlist {
+        margin-top: 10px;
+    }
+   
+    .quantum-megamenu__menu {
+        visibility: hidden;
+        display: inherit !important;
+        -webkit-transition: none;
+        transition: none;
+        opacity: 0;
+        /*transition:all .3s ease-in-out;*/
+    }
+	.quantum-megamenu__list-item.primary-nav-megamenu-open:hover>.quantum-megamenu__menu {
+       
+        -webkit-transition: opacity .4s .2s;
+        transition: opacity .4s .2s;
+        visibility: visible;
+        opacity: 1;
+    }
+    .quantum-megamenu__list-item.primary-nav-megamenu-open:hover>.quantum-megamenu__menu .quantum-megamenu__menu-list-item:first-child {
+        animation: menudrop1;
+        animation-duration: 800ms;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+    .quantum-header__menu {
+        height: auto !important;
+    }
+    #amgen-header {
+        display: none;
+    }
+    .mega-menu-container {
+        display: block;
+    }
+    .quantum-megamenu__menu-column .quantum-megamenu__menu-list-item:first-child a {
+        padding-top: 0px !important;
+    }
+    .quantum-megamenu__list-item.right-links-web .quantum-megamenu__link:first-child {
+        display: none;
+    }
+    .page-not-found .quantum-megamenu__list-item .search-btn,
+    .error-page .quantum-megamenu__list-item .search-btn {
+        position: relative;
+        top: 10px;
+        cursor: pointer;
+        border: 0px;
+        width: inherit;
+    }
+    .sub-menu-item .fa.fa-external-link {
+        padding-left: 5px;
+    }
+    .quantum-megamenu__list-item .search-btn {
+        width: auto !important;
+    }
+    .right-links-search {
+        width: 40px;
+    }
+    .search-close {
+        top: 12px !important;
+    }
+    /*megamenu styles ends here*/
+}
+
+@media screen and (max-width: 767px) {
+	
+    a.quantum-drop-down-menu__link {
+        text-decoration: none;
+    }
+    #amgen-header {
+        display: block;
+    }
+    .mega-menu-container {
+        display: none !important;
+    }
+    .mega-menu-container .quantum-header__inner {
+        display: none !important;
+    }
+    .mega-menu-container .quantum-prevent-nav.quantum-megamenu__link,
+    .mega-menu-container .quantum-megamenu__link {
+        display: none;
+    }
+    .mega-menu-container .quantum-header__right {
+        display: none !important;
+    }
+    .quantum-header--menu-panel-visible nav.quantum-drop-down-menu {
+        border: 0px;
+    }
+    .quantum-header--menu-panel-visible .back-bttn .quantum-drop-down-menu__link {
+        height: 70px !important;
+    }
+    .quantum-header--menu-panel-visible .back-bttn .quantum-drop-down-menu__link span .btn-default {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .quantum-drop-down-menu__list-item.back-bttn:hover>.quantum-drop-down-menu__link {
+        background: #fff !important;
+    }
+    li.quantum-drop-down-menu__list-item.back-bttn.quantum-drop-down-menu__list-item--dropdown-visible a.quantum-drop-down-menu__link.quantum-prevent-nav {
+        background: #fff !important;
+    }
+    .quantum-header--menu-panel-visible .quantum-header__menu ul.quantum-drop-down-menu__list li.quantum-drop-down-menu__list-item a.quantum-drop-down-menu__link {
+        padding: 16px 32px 16px 30px;
+    }
+    .quantum-header__right a.quantum-drop-down-menu__link {
+        text-decoration: none;
+    }
+    .quantum-header--menu-panel-visible .quantum-header__menu {
+        top: 57px !important;
+        border-top: 1px solid #dadada;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    #amgen-header {
+        display: block;
+    }
+	.quantum-button--large.quantum-button--icon-only {
+		width: 47px !important;
+	}
+    .mega-menu-container {
+        display: none;
+    }
+    .quantum-header__mobile-content {
+        display: flex !important;
+    }
+    .quantum-drop-down-menu__list {
+        display: block !important;
+    }
+    .quantum-quicklinks__column:first-child {
+        border-top: 0px solid #fff !important;
+    }
+    .quantum-header--menu-panel-visible nav.quantum-drop-down-menu {
+        border: 0px;
+        width: 100%;
+        margin-bottom: 0px;
+        display: block;
+    }
+    .quantum-header--menu-panel-visible .back-bttn .quantum-drop-down-menu__link {
+        height: 70px !important;
+        padding-top: 5px !important;
+    }
+    .quantum-header--menu-panel-visible .back-bttn .quantum-drop-down-menu__link span .btn-default {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .quantum-drop-down-menu__list-item.back-bttn:hover>.quantum-drop-down-menu__link {
+        background: #fff !important;
+    }
+    li.quantum-drop-down-menu__list-item.back-bttn.quantum-drop-down-menu__list-item--dropdown-visible a.quantum-drop-down-menu__link.quantum-prevent-nav {
+        background: #fff !important;
+    }
+    .quantum-drop-down-menu__list-item.back-bttn .btn.btn-default {
+        top: 1px !important;
+    }
+    .quantum-header--menu-panel-visible .quantum-header__menu ul.quantum-drop-down-menu__list li.quantum-drop-down-menu__list-item a.quantum-drop-down-menu__link {
+        padding: 16px 32px 16px 30px;
+        width: 100%;
+    }
+    .quantum-drop-down-menu__link,
+    .quantum-drop-down-menu__menu-link {
+        white-space: inherit;
+    }
+    .quantum-drop-down-menu__link,
+    .quantum-drop-down-menu__menu-link {
+        white-space: inherit;
+    }
+    .quantum-header__right a.quantum-drop-down-menu__link {
+        text-decoration: none;
+    }
+    .quantum-header--menu-panel-visible .quantum-header__menu {
+        top: 57px !important;
+        border-top: 1px solid #dadada;
+    }
+    .submenu-cont .quantum-drop-down-menu__tertiary {
+        padding-left: 0px;
+    }
+    .quantum-header__mobile-content .quantum-header__menu-trigger--expand-menu {
+        width: 32px !important;
+    }
+    .quantum-header__mobile-content>button.quantum-button:first-child {
+        width: 47px !important;
+        margin-right: 0px !important;
+    }
+    .quantum-header.quantum-header--menu-panel-visible.header-collapse .quantum-header__inner {
+        padding-right: 25px;
+    }
+    .quantum-header--menu-panel-visible .quantum-header__right .quantum-button--large.quantum-button--icon-only {
+        width: 47px;
+    }
+    button.quantum-button.quantum-button--tertiary.quantum-header__icon-button.quantum-header__menu-trigger.quantum-header__menu-trigger--expand-menu.quantum-button--large.quantum-button--icon-only:before {
+        border: 0px solid #efeff0 !important;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .quantum-megamenu__list-item.right-links-web .quantum-megamenu__link:first-child {
+        display: none;
+    }
+    .quantum-megamenu__menu {
+        width: 96vw !important;
+    }
+    #amgen-header {
+        display: none;
+    }
+    .mega-menu-container {
+        display: block;
+    }
+    .quantum-megamenu__menu-column {
+        flex: 0 1 32% !important;
+    }
+    .quantum-megamenu__menu {
+        max-width: 1070px !important;
+    }
+	 .quantum-megamenu__list-item:hover>.quantum-megamenu__menu {
+        -webkit-transition: opacity .4s .2s;
+        transition: opacity .4s .2s;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1099px) and (min-width: 1024px) {
+    .right-links .quantum-megamenu__link .quantum-megamenu__link-text .fa.fa-external-link {
+        padding-right: 0px;
+    }
+    .right-links-web .amgen-web {
+        padding: 0px 3px !important;
+        position: relative;
+        top: 5px;
+    }
+}
+
+
+/* IE Specific CSS */
+
+@media screen and (-ms-high-contrast: active),
+screen and (-ms-high-contrast: none) {
+    .quantum-megamenu {
+        width: 100%;
+    }
+}

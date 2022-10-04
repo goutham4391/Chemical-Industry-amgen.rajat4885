@@ -1,0 +1,217 @@
+.wb-tiles {
+    min-height: fit-content;
+}
+
+.wb-tiles a {
+    pointer-events: all;
+}
+
+.wb-tiles .thumbnail,
+.wb-tiles .thumbnail .wb-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.wb-tiles .wb-content {
+    width: 90%;
+    margin: 0 auto !important;
+    min-height: 160px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #c8c8c8 !important;
+    position: relative;
+    bottom: 40px !important;
+    padding: 28px 25px 25px 21px;
+}
+.covid-information .wb-tiles .wb-content{
+	 bottom: 35px !important;
+}
+.wb-tiles .wb-content .wb-details {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: 5px;
+    justify-content: space-between;
+}
+
+.wb-tiles .wb-content .wb-details a,
+.wb-tiles .wb-content .wb-details .wb-category,
+.wb-tiles .wb-content .wb-details .wb-date,
+.wb-tiles .wb-content .wb-details .wb-arrow {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Helvetica;
+    text-decoration: none;
+    color: #545255;
+    /* text-transform: uppercase; */
+    font-stretch: condensed;
+    letter-spacing: 0.9px;
+}
+
+.wb-tiles .wb-content .wb-details .wb-category,
+.wb-tiles .wb-content .wb-details .wb-date {
+    border-right: 1px solid #c8c8c8;
+    padding-right: 7px;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+
+/* .wb-tiles .wb-content .wb-details .wb-date {
+    padding-left: 10px;
+    margin-right: 10px;
+} */
+
+.wb-tiles .wb-content .wb-details .wb-arrow .arrow-link {
+    float: right;
+    background-image: url(../../../../../arrow-long.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+
+.wb-tiles .wb-content .wb-details .wb-arrow .arrow-link.external-link {
+    background-image: url("../images/amgencommigration/Common/Icons/external-link-icon.svg");
+}
+
+.wb-tiles .wb-content .wb-details .wb-arrow {
+    margin-left: 10px;
+}
+
+.wb-tiles .wb-content .wb-title {
+    padding-top: 10px;
+    word-break: break-word;
+}
+
+.wb-tiles .wb-content .wb-title a,
+.wb-tiles .wb-content .wb-title a h2 {
+    font-size: 20px !important;
+    line-height: 24px;
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.wb-tiles .wb-content .wb-title a sup,
+.wb-tiles .wb-content .wb-title a h2 sup {
+	font-size: 70%;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 1024px) {
+    .wb-tiles .wb-content .wb-details {
+        display: flex;
+        flex-direction: row;
+    }
+    .wb-tiles .wb-content .wb-details .wb-arrow .arrow-link {
+        float: none;
+        clear: both;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wb-tiles .wb-content {
+        padding: 12px;
+    }
+    .wb-tiles .wb-content .wb-category-date .wb-category .category-link,
+    .wb-tiles .wb-content .wb-category-date .wb-date {
+        font-size: .75rem;
+        line-height: 13px;
+    }
+    .wb-tiles .wb-content .wb-title a,
+	.wb-tiles .wb-content .wb-title a h2	{
+        font-size: 16px !important;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .wb-tiles .wb-content {
+        margin: 0;
+        float: right;
+        padding: 25px;
+    }
+    .wb-tiles .wb-content .wb-category-date .wb-category .category-link,
+    .wb-tiles .wb-content .wb-category-date .wb-date {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .wb-tiles .wb-content .wb-title a,
+.wb-tiles .wb-content .wb-title a h2	{
+        font-size: 20px !important;
+        line-height: 24px;
+    }
+}
+
+
+/* Hover animation starts */
+
+@media screen and (min-width: 768px) {
+    .wb-tiles {
+        pointer-events: none;
+        overflow: hidden;
+    }
+    .wb-tiles:hover .thumbnail img {
+        transform: scale(1.05);
+    }
+    .wb-tiles .wb-content {
+        pointer-events: all;
+    }
+    .wb-tiles .wb-content .wb-date {
+        cursor: default;
+    }
+    .wb-tiles:hover .wb-content {
+        background-color: #0063c3;
+        box-shadow: 0 5px 16px 0px rgba(0, 0, 0, 0.2) !important;
+    }
+    .wb-tiles:hover .wb-content .wb-details a,
+    .wb-tiles:hover .wb-content .wb-details .wb-category,
+    .wb-tiles:hover .wb-content .wb-details .wb-date,
+    .wb-tiles:hover .wb-content .wb-details .wb-arrow,
+    .wb-tiles:hover .wb-content .wb-title a,
+	.wb-tiles:hover .wb-content .wb-title a h2	{
+        color: #fff;
+    }
+    .wb-tiles:hover .wb-content .wb-details .wb-arrow .arrow-link {
+        background-image: url(../images/amgencommigration/Common/Icons/white-right-arrow.svg);
+    }
+    .wb-tiles:hover .wb-content .wb-details .wb-arrow .arrow-link.external-link {
+        background-image: url(../images/amgencommigration/Common/Icons/external-link-alt-solid.webp);
+        background-size: cover;
+    }
+    .wb-tiles:hover .wb-content .wb-details .wb-category,
+    .wb-tiles:hover .wb-content .wb-details .wb-date {
+        border-right: 1px solid #fff;
+    }
+    .wb-tiles:hover .wb-content .wb-details,
+    .listing-page .wb-entry-list .wb-tiles:hover .wb-content .wb-details {
+        border-bottom: 1px solid #fff;
+    }
+}
+
+
+/* Hover animation ends */
+
+@media screen and (max-width: 1360px) and (min-width: 950px) {
+	.wb-tiles .wb-content{
+		padding: 28px 15px 25px 10px !important;
+	}
+	.wb-tiles .wb-content .wb-details .wb-category, .wb-tiles .wb-content .wb-details .wb-date{
+		padding-right:5px !important;
+		margin-right:5px;
+	}
+	.wb-tiles .wb-content .wb-details a, .wb-tiles .wb-content .wb-details .wb-category, .wb-tiles .wb-content .wb-details .wb-date, .wb-tiles .wb-content .wb-details .wb-arrow{
+		letter-spacing:normal;
+	}
+	
+}
+
+@media screen and (max-width: 1500px) and (min-width: 950px) {
+	.wb-tiles .wb-content .wb-details a, .wb-tiles .wb-content .wb-details .wb-category, .wb-tiles .wb-content .wb-details .wb-date, .wb-tiles .wb-content .wb-details .wb-arrow{
+		letter-spacing:normal;
+	}
+}

@@ -1,0 +1,5 @@
+
+img.lozadNoSrc:not([src]) {
+  visibility: hidden;
+}
+

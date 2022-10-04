@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Group_3_Copy" width="24" height="24" data-name="Group 3 Copy" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Clip_2" d="M0 0h24v24H0z" class="prefix__cls-1" data-name="Clip 2"/>
+        </clipPath>
+        <style>
+            .prefix__cls-1{fill:none}
+        </style>
+    </defs>
+    <path id="prefix__Clip_2-2" d="M0 0h24v24H0z" class="prefix__cls-1" data-name="Clip 2"/>
+    <g id="prefix__Group_3_Copy-2" clip-path="url(#prefix__clip-path)" data-name="Group 3 Copy">
+        <path id="prefix__Fill_1" fill="#fff" d="M24 24h-4.989v-7.82c0-1.691 0-4.247-2.562-4.247a2.53 2.53 0 0 0-2.443 1.267 6.21 6.21 0 0 0-.523 2.84v7.887H8.495V8.022h4.786v2.158h.068a5.178 5.178 0 0 1 4.719-2.562c2.352 0 3.943.717 4.862 2.191C23.67 11 24 12.67 24 15.236V24zM5.393 24H.405V8.022h4.988V24zM2.9 5.8A2.868 2.868 0 0 1 0 2.9 2.868 2.868 0 0 1 2.9 0a2.868 2.868 0 0 1 2.9 2.9 2.868 2.868 0 0 1-2.9 2.9z" data-name="Fill 1"/>
+    </g>
+</svg>

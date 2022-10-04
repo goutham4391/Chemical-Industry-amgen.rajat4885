@@ -1,0 +1,6 @@
+.wb-archive .collapsed * {
+  display: none;
+}
+.wb-archive .wb-entries.collapsed {
+  margin: 0;
+}

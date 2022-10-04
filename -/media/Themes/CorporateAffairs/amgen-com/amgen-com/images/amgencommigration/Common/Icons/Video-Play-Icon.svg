@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Group_4" width="20" height="20" data-name="Group 4" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .prefix__cls-3{stroke:none}
+        </style>
+    </defs>
+    <g id="prefix__Triangle" fill="none" stroke-miterlimit="10">
+        <path d="M6.441 0l6.441 10.847H0z" class="prefix__cls-3" transform="rotate(90 6.78 10.509)"/>
+        <path fill="#fff" d="M6.44 2.938l-3.805 6.41h7.611l-3.805-6.41M6.44 0l6.44 10.847H0L6.44 0z" transform="rotate(90 6.78 10.509)"/>
+    </g>
+    <g id="prefix__Oval" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5px">
+        <circle cx="10" cy="10" r="10" class="prefix__cls-3"/>
+        <circle cx="10" cy="10" r="9.25"/>
+    </g>
+</svg>

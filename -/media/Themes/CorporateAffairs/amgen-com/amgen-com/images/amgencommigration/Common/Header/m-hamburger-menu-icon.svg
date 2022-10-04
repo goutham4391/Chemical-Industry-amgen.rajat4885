@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="19.5" viewBox="0 0 24 19.5">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:none;stroke:#0063c3;stroke-linecap:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="prefix__Group" transform="translate(0 -.75)">
+        <path id="prefix__Line_2" d="M.75.5h22.5" class="prefix__cls-1" data-name="Line 2" transform="translate(0 1)"/>
+        <path id="prefix__Line_2_Copy_4" d="M.75.5h22.5" class="prefix__cls-1" data-name="Line 2 Copy 4" transform="translate(0 7)"/>
+        <path id="prefix__Line_2_Copy_2" d="M.75.5h22.5" class="prefix__cls-1" data-name="Line 2 Copy 2" transform="translate(0 13)"/>
+        <path id="prefix__Line_2_Copy_3" d="M.75.5h22.5" class="prefix__cls-1" data-name="Line 2 Copy 3" transform="translate(0 19)"/>
+    </g>
+</svg>

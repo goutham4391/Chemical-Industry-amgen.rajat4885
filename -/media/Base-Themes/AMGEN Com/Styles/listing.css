@@ -1,0 +1,662 @@
+.wb {
+    background-color: #fff;
+}
+
+.listing-page {
+    background-color: #edf2f7;
+}
+
+.wb header#top {
+    text-align: center;
+    background-image: url(../../../../../page-not-found.html);
+    background-size: 100%;
+    padding: 2em;
+}
+
+.wb header#top a {
+    text-align: center;
+    font-size: 50px;
+}
+
+.wb .wb-wrapper main section {
+    min-height: 100px;
+    display: inline-grid;
+    width: 30%;
+    margin: 10px;
+}
+
+.wb .wb-wrapper main {
+    padding: 0;
+    width: 75%;
+    display: block;
+    float: left;
+}
+
+.wb .wb-wrapper main section .thumbnail {
+    float: none;
+    margin: 0;
+    width: 270px;
+    height: 175px;
+}
+
+.wb .wb-wrapper main section .thumbnail img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.wb .wb-wrapper main section .wb-details {
+    margin: 5px;
+    border-bottom: 1px solid;
+}
+
+.wb .wb-wrapper main section .wb-details .wb-separator {
+    border-right: 1px solid;
+    margin: 0px 10px;
+}
+
+.wb .wb-wrapper main section .wb-title {
+    padding: 5px;
+    line-height: 1em;
+}
+
+.wb .wb-wrapper main section .wb-title a {
+    color: #0063c3;
+    text-transform: none;
+    font-size: 14px;
+}
+
+.wb .wb-wrapper main section .wb-read-more {
+    padding-left: 5px;
+    color: #0063c3;
+}
+
+.wb .wb-wrapper aside {
+    min-width: 100px;
+    width: 285px;
+    float: right;
+}
+
+.wb .wb-wrapper aside h3 {
+    color: #0063c3;
+}
+
+.wb .wb-wrapper main .wb-view-more-wrapper {
+    text-align: center;
+}
+
+.wb .wb-wrapper main .wb-view-more-wrapper a {
+    padding: 13px 30px;
+    color: #404040;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 24px;
+    border-width: 0;
+    font-family: FreightTextPro, times, serif;
+    font-weight: 700;
+    background-color: #f7f7f5;
+    text-align: center;
+}
+
+.wb-entry-share.wb-panel,
+.wb-entry-tags.wb-panel {
+    width: 66.67%;
+    margin: 0 auto;
+}
+
+.category-listing section.wb-tiles {
+    display: block !important;
+}
+
+.listing-page .img-banner-main-div .inner-div ol a:hover {
+    color: white !important;
+}
+
+.listing-page .wb .wb-wrapper main {
+    width: 100%;
+}
+
+.listing-page .wb-wrapper {
+    max-width: 100%;
+    width: 100%;
+}
+
+.listing-page .wb-entry-list,
+.listing-page .wb-categories.wb-panel {
+    max-width: 1110px;
+    width: 90%;
+    margin: 0px auto;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.listing-page .wb-entry-list {
+    max-width: 1140px;
+}
+
+.listing-page .wb .wb-wrapper main .wb-view-more-wrapper a {
+    border-radius: 0px;
+    background-color: #0063c3;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    /*display: inline-block;*/
+    display: inline-flex;
+    padding: 12px 16px;
+    font-stretch: condensed;
+    font-weight: bold;
+}
+
+.listing-page .wb .wb-wrapper main .wb-view-more-wrapper a i.fa.fa-arrow-down {
+    padding-left: 15px;
+    border-left: 1px solid #fff;
+    margin-left: 10px;
+}
+
+.listing-page .quantum-search-btn-close {
+    display: none;
+}
+
+.listing-page footer {
+    padding: 0px;
+    margin-top: 0px;
+    clear: both;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section .read-more a span.arrow-link {
+    background-image: url(../../../Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icons/arrow-long-2.svg);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 10px;
+    margin-top: 4px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.listing-page .img-banner-main-div .inner-div {
+    min-height: 200px;
+    background-color: #0063c3;
+}
+
+.listing-page .img-banner-main-div .img-section {
+    position: relative;
+    bottom: 50px;
+    max-width: 1110px;
+    width: 90%;
+    margin: 0px auto;
+    padding: .625rem;
+    background-color: #fff;
+    line-height: 0;
+}
+
+.listing-page .wb-categories.wb-panel ul li a.blue {
+    color: #0063c3;
+}
+
+.listing-page .wb-categories.wb-panel h3 {
+    display: none;
+}
+
+.listing-page .img-banner-main-div .img-section img {
+    width: 100%;
+    height: auto;
+}
+
+.listing-page .img-banner-main-div .wb-content {
+    max-width: 1110px;
+    margin: 0px auto;
+    width: 90%;
+    position: relative;
+    bottom: 150px;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section {
+    max-width: 561px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section .heading {
+    text-transform: none;
+	line-height:28px;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section .title-section {
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: 10px;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section .title-section .wb-category a {
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: normal;
+    color: #545255;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section .title-section .wb-separator {
+    border-right: 1px solid #c8c8c8;
+    margin: 0px 10px;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section .title-section .date {
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: normal;
+    color: #545255;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section .heading a {
+    color: #0063c3;
+    font-size: 36px;
+    line-height: 38px;
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section .read-more a {
+    color: #0063c3;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold;
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.listing-page .img-banner-main-div .inner-div h2,
+.listing-page .img-banner-main-div .inner-div h1 {
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 1110px;
+    margin: 30px auto;
+    color: #fff;
+    border-left: 1px solid #fff;
+    padding-left: 30px;
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-weight: 600;
+    width: 90%;
+    text-transform: none;
+}
+
+.listing-page .img-banner-main-div .inner-div ol {
+    max-width: 1110px;
+    margin: 0px auto;
+    padding: 20px 0px;
+    width: 90%;
+}
+
+.listing-page .img-banner-main-div .inner-div ol a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+.listing-page .img-banner-main-div .inner-div ol .separator {
+    color: #fff;
+}
+
+.listing-page .wb-categories.wb-panel {
+    margin-top: -150px;
+}
+
+.listing-page .wb-categories.wb-panel ul {
+    max-width: 1110px;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+    border-top: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+    padding: 5px 0px;
+    margin: 30px 0px;
+}
+
+.listing-page .wb-categories.wb-panel select {
+    display: none;
+}
+
+.listing-page .wb-categories.wb-panel ul li {
+    display: inline-block;
+    padding: 15px;
+    border-right: 1px solid #c8c8c8;
+    text-align: center;
+    margin-left: 0;
+}
+
+.listing-page .wb-categories.wb-panel ul li:last-child {
+    border-right: none;
+}
+
+.listing-page .wb-categories.wb-panel ul li a {
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    color: #545255;
+    text-transform: uppercase;
+}
+
+.listing-page .img-banner-main-div .wb-content .rectangle-section .intro-field {
+    font-size: 18px;
+    line-height: 26px;
+    color: #545255;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.listing-page .wb-categories.wb-panel .wb-category-title {
+    display: none;
+}
+
+.listing-page .quantum-button.quantum-button--primary::after {
+    transform: rotate(90deg);
+    background-position: center;
+    /*margin-left: 7px;*/
+}
+
+.listing-page .wb .wb-wrapper main .wb-view-more-wrapper {
+    text-align: center;
+    width: 100%;
+}
+
+.listing-page .wb.wb-listing {
+    background-color: #edf2f7;
+}
+
+.listing-page .wb .wb-wrapper main section .wb-title a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+    .listing-page .wb-entry-list {
+        margin-top: 30px;
+    }
+    .listing-page .wb-categories.wb-panel ul {
+        margin-top: 0px;
+        display: none;
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        margin: 0px auto;
+        width: 95%;
+        box-shadow: 0 0 20px 0 #c8c8c8;
+    }
+    .listing-page .wb-categories.wb-panel .wb-category-title {
+        width: 100%;
+        display: block;
+        font-size: 20px;
+        line-height: 22px;
+        color: #032e44;
+        border-top: 1px solid #c8c8c8;
+        border-bottom: 1px solid #c8c8c8;
+        padding: 20px 0px;
+        font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+        margin-bottom: 0px;
+        display: none;
+    }
+    .listing-page .wb-categories.wb-panel select {
+        display: block;
+        background: transparent;
+        outline: none;
+        border: none;
+        max-width: 95%;
+        margin: 0 auto;
+        font-size: 20px;
+        line-height: 24px;
+        border-top: 1px solid #c8c8c8;
+        border-bottom: 1px solid #c8c8c8;
+        padding: 20px 0;
+        font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+        height: auto;
+        color: #032e44;
+        text-transform: uppercase;
+        background-image: url(../../../Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icons/arrow.png);
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        font-weight: bold;
+    }
+    .listing-page .wb-categories.wb-panel .wb-category-title i.fa {
+        float: right;
+        color: #0063c3;
+        font-size: 20px;
+    }
+    .listing-page .wb-categories.wb-panel .wb-category-title i.fa-angle-up {
+        display: none;
+    }
+    .listing-page .wb-categories.wb-panel ul {
+        border-top: none;
+        border-bottom: none;
+        background-color: #fff;
+    }
+    .listing-page .wb-categories.wb-panel {
+        margin-top: -130px;
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .listing-page .wb-categories.wb-panel ul li {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .listing-page .wb-categories.wb-panel ul {
+        width: 90%;
+    }
+    .listing-page .wb-categories.wb-panel select {
+        max-width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .listing-page .img-banner-main-div .inner-div h2,
+.listing-page .img-banner-main-div .inner-div h1	{
+        margin-top: 45px;
+    }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .listing-page .img-banner-main-div .inner-div ol {
+        margin-left: 26px;
+    }
+    .listing-page .img-banner-main-div .inner-div h2,
+	.listing-page .img-banner-main-div .inner-div h1	{
+        margin-left: 41px;
+    }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .listing-page .img-banner-main-div .inner-div ol {
+        margin-left: 6px;
+    }
+    .listing-page .img-banner-main-div .inner-div h2,
+.listing-page .img-banner-main-div .inner-div h1	{
+        margin-left: 21px;
+    }
+    .listing-page .wb-entry-list .wb-tiles .wb-content {
+        min-height: 286px;
+    }
+    .listing-page .breadcrumb.navigation-title {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .listing-page .img-banner-main-div .inner-div h2,
+.listing-page .img-banner-main-div .inner-div h1	{
+        font-size: 30px;
+        top: 43%;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .listing-page .wb-tiles .wb-content .wb-details .wb-category {
+        border-right: 2px solid #c8c8c8 !important;
+    }
+    .listing-page .img-banner-main-div .inner-div {
+        min-height: 130px;
+        position: relative;
+        max-width: 100%;
+    }
+    .listing-page .img-banner-main-div .inner-div h2,
+.listing-page .img-banner-main-div .inner-div h1	{
+        position: absolute;
+        left: 30px;
+        right: 0;
+        top: 50%;
+        transform: translateY(-70%);
+        margin: 19px auto;
+    }
+    .listing-page .img-banner-main-div .inner-div .breadcrumb {
+        display: none;
+    }
+    .listing-page .img-banner-main-div .img-section {
+        width: 100%;
+        position: static;
+    }
+    .listing-page .img-banner-main-div .wb-content {
+        width: 100%;
+        padding-left: 30px;
+        bottom: 80px;
+    }
+    .listing-page .wb-categories.wb-panel {
+        margin-top: -40px !important;
+    }
+    .listing-page .img-banner-main-div .wb-content .rectangle-section {
+        box-shadow: 0 0 20px 0 #c8c8c8;
+    }
+    .listing-page .wb-entry-list {
+        margin-top: 30px;
+        width: 100%;
+        padding: 0px 30px;
+        margin-right: 0px;
+    }
+    .listing-page .wb-categories.wb-panel h3 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .listing-page .wb .wb-wrapper main .wb-view-more-wrapper a {
+        padding: 6px 16px;
+    }
+}
+
+
+/* Listing Page Tiles */
+
+.listing-page .wb-entry-list .wb-tiles {
+    display: block;
+    width: inherit;
+    margin: 0;
+    min-height: fit-content;
+}
+
+.listing-page .wb-entry-list .wb-tiles .thumbnail {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    height: auto;
+}
+
+.listing-page .wb-entry-list .wb-tiles .thumbnail img {
+    height: auto;
+}
+
+.listing-page .wb-entry-list .wb-tiles .wb-content {
+    min-height: 222px;
+    box-shadow: none !important;
+}
+
+.listing-page .wb-entry-list .wb-tiles .wb-content .wb-details {
+    border-bottom: 1px solid #c8c8c8;
+    width: 100%;
+}
+
+.listing-page .wb-entry-list .wb-tiles .wb-content .wb-tile {
+    padding: 0;
+    padding-top: 10px;
+}
+
+.listing-page .wb-entry-list .wb-tiles .wb-content .wb-tile a {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "myriad-pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+    .listing-page .wb-entry-list .wb-tiles {
+        width: 32.5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .listing-page .wb-entry-list .wb-tiles .thumbnail {
+        height: 153px;
+    }
+    .listing-page .wb-entry-list .wb-tiles .wb-content {
+        min-height: 215px;
+    }
+    .listing-page .img-banner-main-div .wb-content {
+        bottom: 120px;
+    }
+    .listing-page .wb-categories.wb-panel {
+        margin-top: -100px !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+    .listing-page .wb-categories.wb-panel ul {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .listing-page .wb-entry-list .wb-tiles {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .listing-page .wb-entry-list .wb-tiles .thumbnail {
+        max-width: 100%;
+        height: 221px;
+        height: auto;
+    }
+    .listing-page .wb-entry-list .wb-tiles .wb-content {
+        bottom: 30px;
+        min-height: auto;
+    }
+}
+
+
+/* Listing Page Tiles */
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .listing-page .img-banner-main-div .wb-content {
+        bottom: 60px;
+    }
+}
+
+
+/* Feature Article */
+
+.stories-landing section.wb-tiles {
+    display: block !important;
+}

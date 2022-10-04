@@ -1,0 +1,2085 @@
+
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<!-- Mirrored from www.amgen.com/stories/2021/04/applying-the-power-of-omics-to-r-and-d by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Oct 2022 13:41:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    
+<link rel="preconnect" src="https://consent.cookiebot.com/" crossorigin>
+<link rel="dns-prefetch" src="https://consent.cookiebot.com/">
+<link rel="preconnect" src="https://connect.facebook.net/" crossorigin>
+<link rel="dns-prefetch" src="https://connect.facebook.net/">
+<link rel="preconnect" src="https://www.google-analytics.com/" crossorigin>
+<link rel="dns-prefetch" src="https://www.google-analytics.com/">
+<link rel="preconnect" src="https://www.googletagmanager.com/" crossorigin>
+<link rel="dns-prefetch" src="https://www.googletagmanager.com/">
+<link rel="preconnect" src="https://players.brightcove.net/" crossorigin>
+<link rel="dns-prefetch" src="https://players.brightcove.net/">
+<link rel="preconnect" src="https://vjs.zencdn.net/" crossorigin>
+<link rel="dns-prefetch" src="https://vjs.zencdn.net/">
+    
+<script src="../../../-/media/Foundation/Amgen/JS/LazyLoadJS/load-min.js"></script>
+<script src="../../../-/media/Foundation/Amgen/JS/LazyLoadJS/lozad-config.js"></script>
+<script src="../../../-/media/Foundation/Amgen/JS/LazyLoadJS/intersection-observer.js"></script>
+
+
+
+    
+
+
+<link rel="preload" href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/main.css" as="style">
+<link rel="preload" href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/aglobal-styles.css" as="style">
+<link rel="preload" href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/styles.css" as="style">
+<link rel="preload" href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/Custom.css" as="style">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="preload" href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/amgen-com-custom.css" as="style">
+
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese&amp;display=swap" as="style" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese&amp;display=swap" crossorigin>
+
+
+
+
+
+
+    
+
+
+
+            <script>dataLayer = [{'siteSection':'Stories','siteSectionLevel1':'Applying the Power of Omics to R D','publicationDate':'12.11.2020','lastEditedDate':'08.15.2022'}];</script>
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '../../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window, document, 'script', 'dataLayer', 'GTM-KHHRNWF');
+        </script>
+        <!-- End Google Tag Manager -->
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="../../../-/media/Feature/Experience-Accelerator/Bootstrap-4/Bootstrap-4/Styles/bootstrap-grid.css" rel="stylesheet" /><link href="../../../-/media/Base-Themes/Ccpa-Base-Styles/Styles/ccpa.css" rel="stylesheet" /><link href="../../../-/media/Base-Themes/LazyLoading/Styles/psuedolazyload.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/main.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/aglobal-styles.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/alert.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/cl-customizedsearch.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/component-tabs.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/custom-bootstrap.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/megamenu.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/Print.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/search-custom.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/styles.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/Custom.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/amgen-com-custom.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/tiles.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/custom-css.css" rel="stylesheet" /><link href="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/styles/zfont-weight-css.css" rel="stylesheet" />    
+    <title>Applying the Power of Omics to R&amp;D | Amgen</title>
+
+    
+
+
+
+<!--Header Media Start-->
+            <script src="-/media/Foundation/Amgen/JS/jquery-360min.js"></script>
+            <script src="-/media/Foundation/Amgen/JS/svg4everybodymin%201.js"></script>
+<!--Header Media End-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        <link href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/favicon.png" rel="shortcut icon" />
+
+
+<meta content="In a drive to transform how medicines are discovered, developed, and used, Amgen and its deCODE Genetics subsidiary are mining human data at a scale that was once unimaginable."  property="og:description" /><meta content="article"  property="og:type" /><meta content="http://www.amgen.com/-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/science/10-14-applying-the-power-of-omics-to-rd/Power-of_Omics--1200.jpg"  property="og:image" /><meta content="Applying the Power of Omics to R&D"  property="og:title" /><meta content="https://www.amgen.com/stories/2021/04/applying-the-power-of-omics-to-r-and-d"  property="og:url" />
+
+
+<meta content="In a drive to transform how medicines are discovered, developed, and used, Amgen and its deCODE Genetics subsidiary are mining human data at a scale that was once unimaginable." name="description"  />
+
+
+<meta content="@amgen" name="twitter:site"  /><meta content="http://www.amgen.com/-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/science/10-14-applying-the-power-of-omics-to-rd/Power-of_Omics--1200.jpg" name="twitter:image"  /><meta content="In a drive to transform how medicines are discovered, developed, and used, Amgen and its deCODE Genetics subsidiary are mining human data at a scale that was once unimaginable." name="twitter:description"  /><meta content="Applying the Power of Omics to R&D" name="twitter:title"  /><meta content="summary_large_image" name="twitter:card"  />
+
+
+    <meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,minimum-scale=1.0"/>
+
+
+    <meta content="https://www.amgen.com/stories/2021/04/applying-the-power-of-omics-to-r-and-d" name="twitter:url" />
+    <link rel="canonical" href="applying-the-power-of-omics-to-r-and-d.html">
+
+<script type='text/javascript' src='../../../../platform-api.sharethis.com/js/sharethis.js#property=5abd69401243c10013440c60&product=sop' async='async'></script>
+    
+    
+<div class="component plain-html">
+    <div class="component-content">
+<!--<script defer src="/-/media/Base-Themes/AMGEN Com/Scripts/Font script.js"></script>-->
+
+<script>
+(function() {
+    if (typeof MutationObserver === 'undefined') {
+        return;
+    }
+    var fixFontDisplay = function() {
+        // inject font-display: swap option into typekit fonts
+        var styles = document.getElementsByTagName('style');
+        for (var i = 0; i < styles.length; i++) {
+            if (
+                styles[i].innerText &&
+                styles[i].innerText.includes('@font-face') &&
+                styles[i].innerText.indexOf('@font-face{font-display:swap;') === -1
+            ) {
+                styles[i].innerText = styles[i].innerText
+                    .split('@font-face{').join('@font-face{font-display:swap;');
+            }
+        }
+    };
+    var observer = new MutationObserver(function(mutationsList, observer) {
+        for (var i = 0; i < mutationsList.length; i++) {
+            fixFontDisplay();
+        }
+    });
+    observer.observe(
+        document.getElementsByTagName('head')[0], {
+            attributes: false,
+            childList: true,
+            subtree: false
+        }
+    );
+    window.fixFontObserver = observer;
+})();
+</script>    </div>
+</div>
+<div class="component plain-html">
+    <div class="component-content">
+<link href="../../../-/media/Base-Themes/AMGEN%20Com/Styles/blog-article.css" rel="stylesheet" />
+<link href="../../../-/media/Base-Themes/AMGEN%20Com/Styles/listing.css" rel="stylesheet" />    </div>
+</div>
+<div class="component plain-html">
+    <div class="component-content">
+    
+<!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese&display=swap" as="style" crossorigin>-->
+
+
+
+
+    </div>
+</div>
+    <Link Type="application/rsd+xml" title="RSS Feed" Rel="alternate" href="../../blog-entries"/>
+
+    <div class="quantum-modal " id="modal-one" enable-autoplay="False">
+
+
+        <div class="quantum-modal__dialog quantum-modal__dialog--fit-content">
+            <!-- Modal content-->
+
+
+
+            <img class="th" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/science/10-14-applying-the-power-of-omics/DeCODE-by-the-numbers-v"/>
+
+
+
+            
+           
+                <button class="quantum-button quantum-button--tertiary quantum-modal__close quantum-button--icon-only   "  type="button">
+
+
+                        <svg class="quantum-icon quantum-button__icon">
+   
+                        <use xlink:href="-/media/Themes/Amgen/WhiteLabelTest/WhiteLabelTest/images/amgen.svg#close-light"></use>
+                    </svg>
+
+                </button>
+          
+        </div>
+
+    </div>
+
+
+    <div class="quantum-modal " id="modal-two" enable-autoplay="False">
+
+
+        <div class="quantum-modal__dialog quantum-modal__dialog--fit-content quantum-modal__dialog--fit-full ">
+            <!-- Modal content-->
+
+
+
+            <img class="th" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/science/10-14-applying-the-power-of-omics/Seven-Ways-Amgen-Is-Usi"/>
+
+
+
+            
+           
+                <button class="quantum-button quantum-button--tertiary quantum-modal__close quantum-button--icon-only   "  type="button">
+
+
+                        <svg class="quantum-icon quantum-button__icon">
+   
+                        <use xlink:href="-/media/Themes/Amgen/WhiteLabelTest/WhiteLabelTest/images/amgen.svg#close-light"></use>
+                    </svg>
+
+                </button>
+          
+        </div>
+
+    </div>
+
+
+            <link rel="stylesheet" type="text/css" href="../../../sitecore%20modules/Web/WeBlog/Themes/common/archive.css" />
+        <link rel="stylesheet" type="text/css" href="../../../sitecore%20modules/Web/WeBlog/Themes/common/entry-navigation.css" />
+        <link rel="stylesheet" type="text/css" href="../../../sitecore%20modules/Web/WeBlog/Themes/common/tag-cloud.css" />
+        <link rel="stylesheet" type="text/css" href="../../../sitecore%20modules/Web/WeBlog/Themes/Akira/style.css" />
+
+</head>
+<body class="blog-pages default-device bodyclass" page-id="{801F878B-086C-4B19-97D3-73F8495721B0}">
+    
+
+
+    <div class="component rich-text">
+        <div class="component-content">
+<div class="alert ukraine-banner" style="display: none">
+    <div class="alert__close">&times;</div>
+    
+<div class="ukraine-banner-inner">
+
+       
+<h5>Global hotline for Ukrainian refugee patients participating in an Amgen clinical trial. <a href="../../../ukrainian-refugee-clinical-trial-information.html">Click here for more information</a>.</h5>
+
+<p>Глобальна гаряча лінія для українських пацієнтів-біженців, які беруть участь у клінічному випробуванні Amgen. <a href="../../../ukrainian-refugee-clinical-trial-information.html#ukrainian">Натисніть тут для отримання додаткової інформації</a>.</p>
+
+<p>Глобальная горячая линия для украинских пациентов-беженцев, участвующих в клиническом исследовании Amgen. <a href="../../../ukrainian-refugee-clinical-trial-information.html#russian">Для получения дополнительной информации нажмите здесь</a>.</p>
+
+    </div>
+</div>        </div>
+    </div>
+
+    
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHHRNWF"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="fb-root"></div>
+    <div id="wrapper">
+    </div>
+    <header class="header-nav">
+        
+
+
+
+        <script>
+            
+        </script>
+    <div class="quantum-header   " id="amgen-header">
+        <div class="quantum-header__inner">
+            <div class="quantum-header__left">
+                        <a class="quantum-header__logo  d-none d-sm-block " menu-name="Amgen"  menu-type="header>M Action Class" href="/">
+            <img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/logo.jpeg" class="quantum-header__logo" alt="Amgen Logo" />
+        </a>
+        <a class="quantum-header__logo d-block d-sm-none " href="../../../index.html" menu-name="Amgen"  menu-type="header>M Action Class">
+            <img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/logo.jpeg" class="quantum-header__logo" alt="Amgen Logo" />
+        </a>
+
+
+            </div>
+            <div class="quantum-header__right">
+                <div class="quantum-header__menu">
+                    <nav class="quantum-drop-down-menu">
+
+
+                        <ul class="quantum-drop-down-menu__list">
+                                    <li class="quantum-drop-down-menu__list-item d-md-none">
+<a href="#" class=" quantum-drop-down-menu__link gtm-header" ca1="" menu-name="Search"  menu-type="header" data-value="FLItem-1" >                                                        <span class="quantum-drop-down-menu__link-text"> <div class="search-result-box">
+<input type="text" id="searchTextBox-mobile1" class="search-input" placeholder="Search" />
+<button id="searchSubmitBtn-mobile3" class="search-btn"  aria-label="Search" data-searchurl="/search-results" aria-label="mobile-search-icon"><i class="fa fa-search"></i></button>
+</div> </span>
+</a>
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item back-bttn">
+<a href="#" class=" quantum-drop-down-menu__link gtm-header" ca1="" menu-name="Back To Previous Menu"  menu-type="header" data-value="FLItem-2" >                                                        <span class="quantum-drop-down-menu__link-text">  <i class="fa fa-angle-left cc btn btn-default"></i>Main Menu </span>
+</a>
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item ">
+                                            <a class="quantum-drop-down-menu__link quantum-prevent-nav gtm-header" menu-name="About"  menu-type="header" href="../../../about.html" target="" data-value="FLItem-3">
+                                                    <span class="quantum-drop-down-menu__link-text">About</span>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--expand-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                            </svg>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--collapse-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                            </svg>
+                                            </a>
+
+                                            <ul class="quantum-drop-down-menu__menu">
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../about.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="About Overview"  menu-type="header" data-value="FLItem-3-SLItem-1">
+                                                                        Overview
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../about/amgen-history.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Amgen History"  menu-type="header" data-value="FLItem-3-SLItem-2">
+                                                                        Amgen History
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../about/mission-and-values.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Mission and Values"  menu-type="header" data-value="FLItem-3-SLItem-3">
+                                                                        Mission and Values
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../about/leadership.html" class="quantum-drop-down-menu__menu-link gtm-header " class="hide-href"  menu-name="Leadership"  menu-type="header" data-value="FLItem-3-SLItem-4">
+                                                                        Leadership
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../about/awards-and-accolades.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Awards and Accolades"  menu-type="header" data-value="FLItem-3-SLItem-5">
+                                                                        Awards and Accolades
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../about/how-we-operate.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " menu-name="How We Operate"  menu-type="header" data-value="FLItem-3-SLItem-6">
+                                                                        How We Operate
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../about/how-we-operate.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="How We Operate Overview"  menu-type="header" data-value="FLItem-3-SLItem-6-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../about/how-we-operate/corporate-governance.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Corporate Governance"  menu-type="header" data-value="FLItem-3-SLItem-6-SLItem-2">
+                            Corporate Governance
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/a-healthy-amgen/business-ethics-and-compliance.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Business Ethics and Compliance"  menu-type="header" data-value="FLItem-3-SLItem-6-SLItem-3">
+                            Business Ethics and Compliance
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../about/how-we-operate/policies-practices-and-disclosures.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Policies Practices and Disclosures"  menu-type="header" data-value="FLItem-3-SLItem-6-SLItem-4">
+                            Policies, Practices and Disclosures
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                            </ul>
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item ">
+                                            <a class="quantum-drop-down-menu__link  gtm-header" menu-name="Science"  menu-type="header" href="../../../science.html" target="" data-value="FLItem-4">
+                                                    <span class="quantum-drop-down-menu__link-text">Science</span>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--expand-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                            </svg>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--collapse-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                            </svg>
+                                            </a>
+
+                                            <ul class="quantum-drop-down-menu__menu">
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../science.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Science Overview"  menu-type="header" data-value="FLItem-4-SLItem-7">
+                                                                        Overview
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../science/research-and-development-strategy.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Research and Development Strategy"  menu-type="header" data-value="FLItem-4-SLItem-8">
+                                                                        Research and Development Strategy
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                            <li class="quantum-drop-down-menu__menu-list-item" data-value="FLItem-4-SLItem-9">
+
+<a href="../../../science.html" gtmclass="gtm-header" ca1="" class="hide-href"  menu-name="Pipeline"  menu-type="header"  rel="noopener"" class="" ><a href="https://www.amgenpipeline.com/" class="quantum-drop-down-menu__menu-link" target="_blank" rel="noopener">Pipeline<em class="fa fa-external-link"></em></a></a>
+
+                                                                
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+
+                                                            </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../science/podcasts.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Research and Development Strategy"  menu-type="header" data-value="FLItem-4-SLItem-10">
+                                                                        Amgen Science Podcasts
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../science/scientific-advisory-boards.html" class="quantum-drop-down-menu__menu-link gtm-header " class="hide-href"  menu-name="Scientific Advisory Boards"  menu-type="header" data-value="FLItem-4-SLItem-11">
+                                                                        Scientific Advisory Boards
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                            <li class="quantum-drop-down-menu__menu-list-item" data-value="FLItem-4-SLItem-12">
+
+<a href="../../../science.html" gtmclass="gtm-header" ca1="" class="hide-href"  menu-name="Amgen Competitive Grants"  menu-type="header"  rel="noopener"" class="" ><a href="https://www.amgenscientificgrants.com/" class="quantum-drop-down-menu__menu-link" target="_blank" rel="noopener">Amgen Competitive Grants<i class="fa fa-external-link"></i></a></a>
+
+                                                                
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+
+                                                            </li>
+                                                            <li class="quantum-drop-down-menu__menu-list-item" data-value="FLItem-4-SLItem-13">
+
+<a href="../../../science.html" gtmclass="gtm-header" ca1="" menu-name="Biosimilars"  menu-type="header"  rel="noopener"  class="hide-href"" class="" ><a href="https://www.amgenbiosimilars.com/" class="quantum-drop-down-menu__menu-link" target="_blank" rel="noopener">Biosimilars<i class="fa fa-external-link"></i></a></a>
+
+                                                                
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+
+                                                            </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../science/clinical-trials.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " menu-name="Clinical Trials"  menu-type="header" data-value="FLItem-4-SLItem-14">
+                                                                        Clinical Trials
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/clinical-trials.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Clinical Trials Overview"  menu-type="header" data-value="FLItem-4-SLItem-14-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/clinical-trials/about-clinical-trials.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="About Clinical Trials"  menu-type="header" data-value="FLItem-4-SLItem-14-SLItem-2">
+                            About Clinical Trials
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="https://www.amgentrials.com/" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Amgen Clinical Trials"  menu-type="header"  rel="noopener" data-value="FLItem-4-SLItem-14-SLItem-3">
+                            Amgen  Clinical Trials<i class="fa fa-external-link"></i>
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/clinical-trials/clinical-trial-diversity.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Clinical Trial Diversity"  menu-type="header" data-value="FLItem-4-SLItem-14-SLItem-4">
+                            Clinical Trial Diversity and Representation
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/clinical-trials/information-for-healthcare-professionals.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Information for Healthcare Professionals"  menu-type="header" data-value="FLItem-4-SLItem-14-SLItem-5">
+                            Information for Healthcare Professionals
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/clinical-trials/clinical-data-transparency-practices.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Clinical Trial Transparency Data Sharing and Disclosures Practices"  menu-type="header" data-value="FLItem-4-SLItem-14-SLItem-6">
+                            Clinical Trial Transparency, Data Sharing and Disclosure Practices
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/clinical-trials/clinical-out-of-hours-support-program.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Clinical Out of Hours Support Program"  menu-type="header" data-value="FLItem-4-SLItem-14-SLItem-7">
+                            Clinical  Out-of-Hours  Support program
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="http://www.amgeniss.com/" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Investigator Sponsored Activities"  menu-type="header"  rel="noopener" data-value="FLItem-4-SLItem-14-SLItem-8">
+                            Investigator Sponsored Studies<i class="fa fa-external-link"></i>
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../science/scientific-community-initiatives.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " class="hide-href"  menu-name="Scientific Community Initiatives"  menu-type="header" data-value="FLItem-4-SLItem-15">
+                                                                        Scientific Community Initiatives&nbsp;&nbsp;&nbsp;
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/scientific-community-initiatives.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Scientific Community Initiatives Overview"  menu-type="header" data-value="FLItem-4-SLItem-15-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/scientific-community-initiatives/educational-outreach-program.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Educational Outreach Program"  menu-type="header" data-value="FLItem-4-SLItem-15-SLItem-2">
+                            Educational Outreach Program 
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/scientific-community-initiatives/postdoctoral-fellows.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Postdoctoral Fellows Program"  menu-type="header" data-value="FLItem-4-SLItem-15-SLItem-3">
+                            Postdoctoral Fellows Program
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/scientific-community-initiatives/scientific-conferences-program.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Scientific Conferences Program"  menu-type="header" data-value="FLItem-4-SLItem-15-SLItem-4">
+                            Scientific Conferences Program
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/scientific-community-initiatives/start-up-network-program.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Start-Up Network Program"  menu-type="header" data-value="FLItem-4-SLItem-15-SLItem-5">
+                            Start-Up Network Program
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../science/manufacturing.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " menu-name="Manufacturing"  menu-type="header" data-value="FLItem-4-SLItem-16">
+                                                                        Manufacturing
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/manufacturing.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Manufacturing Overview"  menu-type="header" data-value="FLItem-4-SLItem-16-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/manufacturing/innovation.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Innovation"  menu-type="header" data-value="FLItem-4-SLItem-16-SLItem-2">
+                            Innovation
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/manufacturing/quality.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Quality"  menu-type="header" data-value="FLItem-4-SLItem-16-SLItem-3">
+                            Quality
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../science/manufacturing/reliability.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Reliability"  menu-type="header" data-value="FLItem-4-SLItem-16-SLItem-4">
+                            Reliability
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                            </ul>
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item ">
+                                            <a class="quantum-drop-down-menu__link  gtm-header" menu-name="Products"  menu-type="header" href="../../../products.html" target="" data-value="FLItem-5">
+                                                    <span class="quantum-drop-down-menu__link-text">PRODUCTS</span>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--expand-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                            </svg>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--collapse-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                            </svg>
+                                            </a>
+
+                                            <ul class="quantum-drop-down-menu__menu">
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../products.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Products Overview"  menu-type="header" data-value="FLItem-5-SLItem-17">
+                                                                        Overview
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                            <li class="quantum-drop-down-menu__menu-list-item" data-value="FLItem-5-SLItem-18">
+
+<a href="../../../products.html" gtmclass="gtm-header" ca1="" menu-name="Medical Information"  menu-type="header"  rel="noopener"  class="hide-href"" class="" ><a href="http://www.amgenmedinfo.com/" class="quantum-drop-down-menu__menu-link" target="_blank" rel="noopener">Medical Information<i class="fa fa-external-link"></i></a></a>
+
+                                                                
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+
+                                                            </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../products/counterfeit-drug-statement.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Counterfeit Drug Statement"  menu-type="header" data-value="FLItem-5-SLItem-19">
+                                                                        Counterfeit Drug Statement
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../products/safety-data-sheets.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Safety Data Sheets"  menu-type="header" data-value="FLItem-5-SLItem-20">
+                                                                        Safety Data Sheets
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../products/global-patient-safety.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " menu-name="Global Patient Safety"  menu-type="header" data-value="FLItem-5-SLItem-21">
+                                                                        Global Patient Safety
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../products/global-patient-safety.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Global Patient Safety Overview"  menu-type="header" data-value="FLItem-5-SLItem-21-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../products/global-patient-safety/who-we-are.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Who We Are"  menu-type="header" data-value="FLItem-5-SLItem-21-SLItem-2">
+                            Who We Are
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../products/global-patient-safety/our-commitment.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Our Commitment"  menu-type="header" data-value="FLItem-5-SLItem-21-SLItem-3">
+                            Our Commitment
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../products/global-patient-safety/what-we-do.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="What We Do"  menu-type="header" data-value="FLItem-5-SLItem-21-SLItem-4">
+                            What We Do
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../products/global-patient-safety/adverse-event-reporting.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Adverse Event and Product Complaint Reporting"  menu-type="header" data-value="FLItem-5-SLItem-21-SLItem-5">
+                            Adverse Event and Product Complaint Reporting
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                            </ul>
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item ">
+                                            <a class="quantum-drop-down-menu__link  gtm-header" menu-name="Responsibility"  menu-type="header" href="../../../responsibility.html" target="" data-value="FLItem-6">
+                                                    <span class="quantum-drop-down-menu__link-text">Responsibility</span>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--expand-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                            </svg>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--collapse-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                            </svg>
+                                            </a>
+
+                                            <ul class="quantum-drop-down-menu__menu">
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../responsibility.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Responsibility Overview"  menu-type="header" data-value="FLItem-6-SLItem-22">
+                                                                        Overview
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../responsibility/environmental-social-and-governance-report.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Environmental Social and Governance Report 2021"  menu-type="header" data-value="FLItem-6-SLItem-23">
+                                                                        Environmental, Social &#38; Governance Report 2021
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../responsibility/environment-social-and-governance-strategy.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Environment Social and Governance Strategy"  menu-type="header" data-value="FLItem-6-SLItem-24">
+                                                                        Environment, Social and Governance Strategy
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../responsibility/healthy-people.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " menu-name="Healthy People"  menu-type="header" data-value="FLItem-6-SLItem-25">
+                                                                        Healthy People
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-people.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Healthy People Overview"  menu-type="header" data-value="FLItem-6-SLItem-25-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-people/access-to-medicines.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Access to Medicines"  menu-type="header" data-value="FLItem-6-SLItem-25-SLItem-2">
+                            Access to Medicines
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-people/health-equity.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Health Equity"  menu-type="header" data-value="FLItem-6-SLItem-25-SLItem-3">
+                            Health Equity
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../responsibility/healthy-society.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " menu-name="Healthy Society"  menu-type="header" data-value="FLItem-6-SLItem-26">
+                                                                        Healthy Society
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-society.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Healthy Society Overview"  menu-type="header" data-value="FLItem-6-SLItem-26-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-society/diversity-and-inclusion.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Diversity Inclusion and Belonging"  menu-type="header"  rel="noopener" data-value="FLItem-6-SLItem-26-SLItem-2">
+                            Diversity, Inclusion and Belonging
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-society/human-capital-management.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Human Capital Management"  menu-type="header"  rel="noopener" data-value="FLItem-6-SLItem-26-SLItem-3">
+                            Human Capital Management
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-society/community-investment.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Community Investment and Amgen Foundation"  menu-type="header" data-value="FLItem-6-SLItem-26-SLItem-4">
+                            Community Investment and Amgen Foundation
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../partners/suppliers/supplier-diversity.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Supplier Diversity"  menu-type="header" data-value="FLItem-6-SLItem-26-SLItem-5">
+                            Supplier Diversity
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../responsibility/healthy-planet.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " menu-name="Healthy Planet"  menu-type="header" data-value="FLItem-6-SLItem-27">
+                                                                        Healthy Planet
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-planet.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Healthy Planet Overview"  menu-type="header" data-value="FLItem-6-SLItem-27-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-planet/environmental-sustainability.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Environmental Sustainability"  menu-type="header" data-value="FLItem-6-SLItem-27-SLItem-2">
+                            Environmental Sustainability
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/healthy-planet/supplier-sustainability.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Supplier Sustainability"  menu-type="header" data-value="FLItem-6-SLItem-27-SLItem-3">
+                            Supplier Sustainability
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../responsibility/a-healthy-amgen.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " menu-name="A Healthy Amgen"  menu-type="header" data-value="FLItem-6-SLItem-28">
+                                                                        A Healthy Amgen
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/a-healthy-amgen.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="A Healthy Amgen Overview"  menu-type="header" data-value="FLItem-6-SLItem-28-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../about/how-we-operate/corporate-governance.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Corporate Governance"  menu-type="header" data-value="FLItem-6-SLItem-28-SLItem-2">
+                            Corporate Governance
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/a-healthy-amgen/business-ethics-and-compliance.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Business Ethics and Compliance"  menu-type="header" data-value="FLItem-6-SLItem-28-SLItem-3">
+                            Business Ethics and Compliance
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/a-healthy-amgen/ethical-research.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Ethical Research"  menu-type="header" data-value="FLItem-6-SLItem-28-SLItem-4">
+                            Ethical Research
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../products/global-patient-safety.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Patient Safety"  menu-type="header" data-value="FLItem-6-SLItem-28-SLItem-5">
+                            Patient Safety
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../about/how-we-operate/policies-practices-and-disclosures/business-conduct/quality.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Product Quality"  menu-type="header" data-value="FLItem-6-SLItem-28-SLItem-6">
+                            Product Quality
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/a-healthy-amgen/cybersecurity-and-data-privacy.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Cybersecurity and Data Privacy"  menu-type="header" data-value="FLItem-6-SLItem-28-SLItem-7">
+                            Cybersecurity and Data Privacy
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../responsibility/reporting-and-metrics.html" class="quantum-drop-down-menu__menu-link desktop-submenu-right-icon gtm-header " menu-name="Reporting and Metrics"  menu-type="header" data-value="FLItem-6-SLItem-29">
+                                                                        Reporting and Metrics
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/reporting-and-metrics.html" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Reporting and Metrics Overview"  menu-type="header" data-value="FLItem-6-SLItem-29-SLItem-1">
+                            Overview
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/reporting-and-metrics/summary-of-data.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Summary of Data"  menu-type="header" data-value="FLItem-6-SLItem-29-SLItem-2">
+                            Summary of Data
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/reporting-and-metrics/cdp.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="CDP"  menu-type="header" data-value="FLItem-6-SLItem-29-SLItem-3">
+                            CDP
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../responsibility/reporting-and-metrics/archived-reports.html" class="quantum-drop-down-menu__menu-link  gtm-header sub-menu-item " menu-name="Archived Reports"  menu-type="header" data-value="FLItem-6-SLItem-29-SLItem-4">
+                            Archived Reports
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                            </ul>
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item ">
+                                            <a class="quantum-drop-down-menu__link  gtm-header" menu-name="Stories"  menu-type="header" href="../../../stories.html" target="" data-value="FLItem-7">
+                                                    <span class="quantum-drop-down-menu__link-text">Stories</span>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--expand-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                            </svg>
+                                                            <svg class="quantum-icon quantum-drop-down-menu__link-icon quantum-drop-down-menu__link-icon--collapse-dropdown">
+                                                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                            </svg>
+                                            </a>
+
+                                            <ul class="quantum-drop-down-menu__menu">
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../stories.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="All Stories"  menu-type="header" data-value="FLItem-7-SLItem-30">
+                                                                        All Stories
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../categories/responsibility.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Responsibility"  menu-type="header" data-value="FLItem-7-SLItem-31">
+                                                                        Responsibility
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../categories/people-and-culture.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="People and Culture"  menu-type="header" data-value="FLItem-7-SLItem-32">
+                                                                        People and Culture
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../categories/science-and-innovation.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Science and Innovation"  menu-type="header" data-value="FLItem-7-SLItem-33">
+                                                                        Science and Innovation
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../categories/patients.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Patients"  menu-type="header" data-value="FLItem-7-SLItem-34">
+                                                                        Patients
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../categories/leadership.html" class="quantum-drop-down-menu__menu-link gtm-header " menu-name="Leadership"  menu-type="header" data-value="FLItem-7-SLItem-35">
+                                                                        Leadership
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+</ul>
+                                                                </li>
+                                                                <li class="quantum-drop-down-menu__menu-list-item">
+                                                                    <a href="../../../index.html" class="quantum-drop-down-menu__menu-link gtm-header desktop-submenu-right-icon " menu-name="Popular Tags"  menu-type="header" data-value="FLItem-7-SLItem-36">
+                                                                        Popular Tags
+                                                                    </a>
+                                                                    
+
+
+<ul class="quantum-drop-down-menu__tertiary">
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../stories1ecd.html?tag=COVID-19" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="COVID-19"  menu-type="header" data-value="FLItem-7-SLItem-36-SLItem-1">
+                            COVID-19
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../stories88a2.html?tag=Supporting%20Our%20Staff" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Supporting Our Staff"  menu-type="header" data-value="FLItem-7-SLItem-36-SLItem-2">
+                            Supporting Our Staff
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../storiesed38.html?tag=Leveraging%20Our%20Science" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Leveraging Our Science"  menu-type="header" data-value="FLItem-7-SLItem-36-SLItem-3">
+                            Leveraging Our Science
+                        </a>
+                    </li>
+                    <li class="quantum-drop-down-menu__menu-list-item ">
+                        <a href="../../../stories3d6c.html?tag=Serving%20Our%20Communities" class="quantum-drop-down-menu__menu-link  gtm-header " menu-name="Serving Our Communities"  menu-type="header" data-value="FLItem-7-SLItem-36-SLItem-4">
+                            Serving Our Communities
+                        </a>
+                    </li>
+</ul>
+                                                                </li>
+                                            </ul>
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item right-links media">
+                                            <a class="quantum-drop-down-menu__link  gtm-header" menu-name="Newsroom"  menu-type="header" href="../../../newsroom.html" target="" data-value="FLItem-8">
+                                                    <span class="quantum-drop-down-menu__link-text">Newsroom</span>
+                                            </a>
+
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item right-links">
+                                            <a class="quantum-drop-down-menu__link  gtm-header" menu-name="Partners"  menu-type="header" href="../../../partners.html" target="" data-value="FLItem-9">
+                                                    <span class="quantum-drop-down-menu__link-text">Partners</span>
+                                            </a>
+
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item right-links">
+                                            <a class="quantum-drop-down-menu__link  gtm-header" menu-name="Investors"  menu-type="header"  rel="noopener" href="http://investors.amgen.com/" target="_blank" data-value="FLItem-10">
+                                                    <span class="quantum-drop-down-menu__link-text">Investors <i class="fa fa-external-link"></i></span>
+                                            </a>
+
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item right-links">
+                                            <a class="quantum-drop-down-menu__link  gtm-header" menu-name="Careers"  menu-type="header"  rel="noopener" href="http://careers.amgen.com/" target="_blank" data-value="FLItem-11">
+                                                    <span class="quantum-drop-down-menu__link-text">Careers <i class="fa fa-external-link"></i></span>
+                                            </a>
+
+                                    </li>
+                                    <li class="quantum-drop-down-menu__list-item d-lg-none mobWW">
+                                            <a class="quantum-drop-down-menu__link  gtm-header" menu-name="Amgen Worldwide"  menu-type="header" href="../../../amgen-worldwide.html" target="" data-value="FLItem-12">
+                                                    <span class="quantum-drop-down-menu__link-text">Amgen Worldwide</span>
+                                            </a>
+
+                                    </li>
+                        </ul>
+
+                        <ul class="quantum-drop-down-menu__top-nav-list">
+                                    <li class="quantum-drop-down-menu__top-nav-list-item ">
+                                                    <span class="quantum-drop-down-menu__top-nav-link-text"> <div class="quantum-quicklinks__column menu-social-links">
+<ul class="quantum-list-group quantum-quicklinks__column-list-group quantum-list-group--small">
+    <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link " href="https://www.linkedin.com/company/amgen" target="_blank" rel="noopener">
+    <img alt="linkedIn-icon" class="linkedIn-icon d-none d-sm-block lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-linkedin-icon.svg" />
+    <img alt="linkedIn-icon" class="linkedIn-icon d-block d-sm-none lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-linkedin-icon.svg" />
+    </a>
+    </li>
+    <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link" href="http://www.twitter.com/amgen" target="_blank" rel="noopener">
+    <img alt="twitter-icon" class="twitter-icon d-none d-sm-block lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-twitter-icon.svg" />
+    <img alt="twitter-icon" class="twitter-icon d-block d-sm-none lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-twitter-icon.svg" />
+    </a>
+    </li>
+    <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link" href="https://www.youtube.com/user/Amgen" target="_blank" rel="noopener">
+    <img alt="youtube-icon" class="youtube-icon d-none d-sm-block lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-youtube-icon.svg" />
+    <img alt="youtube-icon" class="youtube-icon d-block d-sm-none lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-youtube-icon.svg" />
+    </a>
+    </li>
+    <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link" href="https://www.facebook.com/amgenbiotech/" target="_blank" rel="noopener">
+    <img alt="facebook-icon" class="facebook-icon d-none d-sm-block lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-facebook-icon.svg" />
+    <img alt="facebook-icon" class="facebook-icon d-block d-sm-none lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-facebook-icon.svg" />
+    </a>
+    </li>
+    <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link" href="https://www.instagram.com/amgenbiotech/" target="_blank" rel="noopener">
+    <img alt="instagram-icon" class="instagram-icon d-none d-sm-block lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-instagram-icon.svg" />
+    <img alt="instagram-icon" class="instagram-icon d-block d-sm-none lozad" data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-instagram-icon.svg" />
+    </a>
+    </li>
+</ul>
+</div>  </span>
+                                    </li>
+                        </ul>
+
+                    </nav>
+                </div>
+                <div class="quantum-header__mobile-content">
+                        <button class="quantum-button quantum-button--tertiary quantum-header__icon-button quantum-button--large quantum-button--icon-only " type="button">
+                            <svg class="quantum-icon quantum-button__icon">
+                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#search-regular"></use>
+                            </svg>
+                        </button>
+                        <button class="quantum-button quantum-button--tertiary quantum-header__icon-button quantum-header__menu-trigger quantum-header__menu-trigger--expand-menu quantum-button--large quantum-button--icon-only" type="button">
+                            <svg class="quantum-icon quantum-button__icon">
+                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#bars-regular"></use>
+                            </svg>
+                        </button>
+                        <button class="quantum-button quantum-button--tertiary quantum-header__icon-button quantum-header__menu-trigger quantum-header__menu-trigger--collapse-menu quantum-button--large quantum-button--icon-only" type="button">
+                            <svg class="quantum-icon quantum-button__icon">
+                                <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#close-light"></use>
+                            </svg>
+                        </button>
+                </div>
+            </div>
+        </div>
+
+
+                    <div class="quantum-header__mobile-subnavigation">
+                        <div class="quantum-header__mobile-subnavigation-toggle">
+                            <span class="quantum-header__mobile-subnavigation-placeholder"></span>
+                            <button class="quantum-button quantum-button--tertiary quantum-header__icon-button evenity-sub-nav__menu-trigger evenity-sub-nav__menu-trigger--expand-menu quantum-button--large quantum-button--icon-only" type="button">
+                                <svg class="quantum-icon quantum-button__icon">
+                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#"></use>
+                                </svg>
+                            </button>
+                            <button class="quantum-button quantum-button--tertiary quantum-header__icon-button evenity-sub-nav__menu-trigger evenity-sub-nav__menu-trigger--expand-menu quantum-button--large quantum-button--icon-only collapse" type="button">
+                                <svg class="quantum-icon quantum-button__icon">
+                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#"></use>
+                                </svg>
+                            </button>
+
+                        </div>
+                        <ul class="quantum-drop-down-menu__menu">
+                                <li class="quantum-drop-down-menu__menu-list-item quantum-drop-down-menu__list-item ">
+                                    <a href="../../../stories.html"
+                                       class="quantum-drop-down-menu__menu-link gtm-header "
+                                       menu-name="" menu-type="header" data-value="FLItem-7-SLItem-1">
+                                        All Stories
+                                    </a>
+                                </li>
+                                <li class="quantum-drop-down-menu__menu-list-item quantum-drop-down-menu__list-item ">
+                                    <a href="../../categories/responsibility.html"
+                                       class="quantum-drop-down-menu__menu-link gtm-header "
+                                       menu-name="" menu-type="header" data-value="FLItem-7-SLItem-2">
+                                        Responsibility
+                                    </a>
+                                </li>
+                                <li class="quantum-drop-down-menu__menu-list-item quantum-drop-down-menu__list-item ">
+                                    <a href="../../categories/people-and-culture.html"
+                                       class="quantum-drop-down-menu__menu-link gtm-header "
+                                       menu-name="" menu-type="header" data-value="FLItem-7-SLItem-3">
+                                        People and Culture
+                                    </a>
+                                </li>
+                                <li class="quantum-drop-down-menu__menu-list-item quantum-drop-down-menu__list-item ">
+                                    <a href="../../categories/science-and-innovation.html"
+                                       class="quantum-drop-down-menu__menu-link gtm-header "
+                                       menu-name="" menu-type="header" data-value="FLItem-7-SLItem-4">
+                                        Science and Innovation
+                                    </a>
+                                </li>
+                                <li class="quantum-drop-down-menu__menu-list-item quantum-drop-down-menu__list-item ">
+                                    <a href="../../categories/patients.html"
+                                       class="quantum-drop-down-menu__menu-link gtm-header "
+                                       menu-name="" menu-type="header" data-value="FLItem-7-SLItem-5">
+                                        Patients
+                                    </a>
+                                </li>
+                                <li class="quantum-drop-down-menu__menu-list-item quantum-drop-down-menu__list-item ">
+                                    <a href="../../categories/leadership.html"
+                                       class="quantum-drop-down-menu__menu-link gtm-header "
+                                       menu-name="" menu-type="header" data-value="FLItem-7-SLItem-6">
+                                        Leadership
+                                    </a>
+                                </li>
+                                <li class="quantum-drop-down-menu__menu-list-item quantum-drop-down-menu__list-item desktip-menu-right-icon">
+                                    <a href="../../../index.html"
+                                       class="quantum-drop-down-menu__menu-link gtm-header desktop-submenu-right-icon desktip-menu-right-icon"
+                                       menu-name="" menu-type="header" data-value="FLItem-7-SLItem-7">
+                                        Popular Tags
+                                    </a>
+                                </li>
+                        </ul>
+
+                            <ul class="quantum-drop-down-menu__tertiary">
+                                        <li class="quantum-drop-down-menu__list-item ">
+                                            <a href="../../../stories1ecd.html?tag=COVID-19" class="quantum-drop-down-menu__menu-link ">COVID-19</a>
+                                        </li>
+                                        <li class="quantum-drop-down-menu__list-item ">
+                                            <a href="../../../stories88a2.html?tag=Supporting%20Our%20Staff" class="quantum-drop-down-menu__menu-link ">Supporting Our Staff</a>
+                                        </li>
+                                        <li class="quantum-drop-down-menu__list-item ">
+                                            <a href="../../../storiesed38.html?tag=Leveraging%20Our%20Science" class="quantum-drop-down-menu__menu-link ">Leveraging Our Science</a>
+                                        </li>
+                                        <li class="quantum-drop-down-menu__list-item ">
+                                            <a href="../../../stories3d6c.html?tag=Serving%20Our%20Communities" class="quantum-drop-down-menu__menu-link ">Serving Our Communities</a>
+                                        </li>
+                            </ul>
+                    </div>
+
+    </div>
+
+
+
+    <div class="quantum-header mega-menu-container  quantum-container--primary " id="">
+        <div class="quantum-header__inner">
+            <div class="quantum-header__left">
+                        <a class="quantum-header__logo  d-none d-sm-block gtm-header" menu-type="header"  menu-name="Amgen logo" href="../../../index.html">
+            <img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/logo.jpeg" class="quantum-header__logo" alt="Amgen Logo" />
+        </a>
+        <a class="quantum-header__logo d-block d-sm-none gtm-header" href="../../../index.html" menu-type="header"  menu-name="Amgen logo">
+            <img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/logo.jpeg" class="quantum-header__logo" alt="Amgen Logo" />
+        </a>
+
+
+            </div>
+                <div class="quantum-header__right">
+                    <div class="quantum-header__menu">
+                        <nav class="quantum-megamenu">
+                            <ul class="quantum-megamenu__list">
+                                            <li class="quantum-megamenu__list-item ">
+<a href="../../../about.html" class="quantum-prevent-nav quantum-megamenu__link gtm-header" ca1="" menu-name="About"  menu-type="header"" target="" value="FLItem-1" >                                                            <span class="quantum-megamenu__link-text">
+                                                                About
+                                                            </span>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--expand-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                                </svg>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--collapse-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                                </svg>
+</a>                                                                                                    <div class="quantum-megamenu__menu">
+                                                                <ul class="quantum-megamenu__menu-column ">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="About"  menu-type="header"" target="" value="FLItem-1-SLItem-1" >Overview</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about/amgen-history.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Amgen History"  menu-type="header"" target="" value="FLItem-1-SLItem-2" >Amgen History</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about/mission-and-values.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Mission and Values"  menu-type="header"" target="" value="FLItem-1-SLItem-3" >Mission and Values</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about/leadership.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" class="hide-href"  menu-name="Leadership"  menu-type="header"" target="" value="FLItem-1-SLItem-4" >Leadership</a>                                                                                    </li>
+
+                                                                </ul>
+                                                                <ul class="quantum-megamenu__menu-column ">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about/awards-and-accolades.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Awards and Accolades"  menu-type="header"" target="" value="FLItem-1-SLItem-5" >Awards and Accolades</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about/how-we-operate.html" class="desktip-menu-right-icon quantum-megamenu__menu-link desktop-submenu-right-icon gtm-header" ca1="" menu-name="How We Operate"  menu-type="header"" target="" value="FLItem-1-SLItem-6" >How We Operate</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about/how-we-operate/corporate-governance.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Corporate Governance"  menu-type="header"" target="" value="FLItem-1-SLItem-7" >Corporate Governance</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/a-healthy-amgen/business-ethics-and-compliance.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Business Ethics and Compliance"  menu-type="header"" target="" value="FLItem-1-SLItem-8" >Business Ethics and Compliance</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about/how-we-operate/policies-practices-and-disclosures.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Policies Practices and Disclosures"  menu-type="header"" target="" value="FLItem-1-SLItem-9" >Policies, Practices and Disclosures</a>                                                                                    </li>
+
+                                                                </ul>
+                                                    </div>
+
+                                            </li>
+                                            <li class="quantum-megamenu__list-item ">
+<a href="../../../science.html" class=" quantum-megamenu__link gtm-header" ca1="" menu-name="Science"  menu-type="header"" target="" value="FLItem-2" >                                                            <span class="quantum-megamenu__link-text">
+                                                                Science
+                                                            </span>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--expand-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                                </svg>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--collapse-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                                </svg>
+</a>                                                                                                    <div class="quantum-megamenu__menu">
+                                                                <ul class="quantum-megamenu__menu-column ">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Science"  menu-type="header"" target="" value="FLItem-2-SLItem-10" >Overview</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/research-and-development-strategy.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Research and Development Strategy"  menu-type="header"" target="" value="FLItem-2-SLItem-11" >Research and Development Strategy</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/research-and-development-strategy/human-data.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Human Data"  menu-type="header"" target="" value="FLItem-2-SLItem-12" >Human Data</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/research-and-development-strategy/ai-and-data-science.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="AI and Data Science"  menu-type="header"" target="" value="FLItem-2-SLItem-13" >AI & Data Science</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/research-and-development-strategy/multispecifics-and-other-modalities.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Multispecifics and Other Modalities"  menu-type="header"" target="" value="FLItem-2-SLItem-14" >Multispecifics & Other Modalities</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/research-and-development-strategy/clinical-trial-innovation.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Clinical Trial Innovation"  menu-type="header"" target="" value="FLItem-2-SLItem-15" >Clinical Trial Innovation</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="http://www.amgenpipeline.com/" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Pipeline"  menu-type="header"  rel="noopener"" target="_blank" value="FLItem-2-SLItem-16" >Pipeline <i class="fa fa-external-link"></i></a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/podcasts.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Amgen Science Podcasts"  menu-type="header"" target="" value="FLItem-2-SLItem-17" >Amgen Science Podcasts</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/scientific-advisory-boards.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" class="hide-href"  menu-name="Scientific Advisory Boards"  menu-type="header"" target="" value="FLItem-2-SLItem-18" >Scientific Advisory Boards</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="http://www.amgenscientificgrants.com/" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Amgen Competitive Grants"  menu-type="header"  rel="noopener"" target="_blank" value="FLItem-2-SLItem-19" >Amgen Competitive Grants <i class="fa fa-external-link"></i></a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="http://www.amgenbiosimilars.com/" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Biosimilars"  menu-type="header"  rel="noopener"" target="_blank" value="FLItem-2-SLItem-20" >Biosimilars <i class="fa fa-external-link"></i></a>                                                                                    </li>
+
+                                                                </ul>
+                                                                <ul class="quantum-megamenu__menu-column desktip-menu-right-icon">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/clinical-trials.html" class="desktip-menu-right-icon quantum-megamenu__menu-link desktop-submenu-right-icon gtm-header" ca1="" menu-name="Clinical Trials"  menu-type="header"" target="" value="FLItem-2-SLItem-21" >Clinical Trials</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/clinical-trials/about-clinical-trials.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="About Clinical Trials"  menu-type="header"" target="" value="FLItem-2-SLItem-22" >About Clinical Trials</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="https://www.amgentrials.com/" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Amgen Clinical Trials"  menu-type="header"  rel="noopener"" target="" value="FLItem-2-SLItem-23" >Amgen  Clinical Trials <i class="fa fa-external-link"></i></a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/clinical-trials/clinical-trial-diversity.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Clinical Trial Diversity"  menu-type="header"" target="" value="FLItem-2-SLItem-24" >Clinical Trial Diversity and Representation</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/clinical-trials/information-for-healthcare-professionals.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Information for Healthcare Professionals"  menu-type="header"" target="" value="FLItem-2-SLItem-25" >Information for Healthcare Professionals</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/clinical-trials/clinical-data-transparency-practices.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Clinical Trial Transparency Data Sharing and Disclosures Practices"  menu-type="header"" target="" value="FLItem-2-SLItem-26" >Clinical Trial Transparency, Data Sharing and Disclosure Practices</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/clinical-trials/clinical-out-of-hours-support-program.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Clinical Out of Hours Support Program"  menu-type="header"" target="" value="FLItem-2-SLItem-27" >Clinical  Out-of-Hours  Support Program</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="http://www.amgeniss.com/" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Investigator Sponsored Activities"  menu-type="header"  rel="noopener"" target="" value="FLItem-2-SLItem-28" >Investigator Sponsored Studies <i class="fa fa-external-link"></i></a>                                                                                    </li>
+
+                                                                </ul>
+                                                                <ul class="quantum-megamenu__menu-column ">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/scientific-community-initiatives.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Scientific Community Initiatives"  menu-type="header"" target="" value="FLItem-2-SLItem-29" >Scientific Community Initiatives</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/scientific-community-initiatives/educational-outreach-program.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Educational Outreach Program"  menu-type="header"" target="" value="FLItem-2-SLItem-30" >Educational Outreach Program </a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/scientific-community-initiatives/postdoctoral-fellows.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Postdoctoral Fellows Program"  menu-type="header"" target="" value="FLItem-2-SLItem-31" >Postdoctoral Fellows Program</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/scientific-community-initiatives/scientific-conferences-program.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Scientific Conferences Program"  menu-type="header"" target="" value="FLItem-2-SLItem-32" >Scientific Conferences Program</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/scientific-community-initiatives/start-up-network-program.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Start-Up Network Program"  menu-type="header"" target="" value="FLItem-2-SLItem-33" >Start-Up Network Program</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/manufacturing.html" class=" quantum-megamenu__menu-link desktop-submenu-right-icon gtm-header" ca1="" menu-name="Manufacturing"  menu-type="header"" target="" value="FLItem-2-SLItem-34" >Manufacturing</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/manufacturing/innovation.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Innovation"  menu-type="header"" target="" value="FLItem-2-SLItem-35" >Innovation</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/manufacturing/quality.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Quality"  menu-type="header"" target="" value="FLItem-2-SLItem-36" >Quality</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../science/manufacturing/reliability.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Reliability"  menu-type="header"" target="" value="FLItem-2-SLItem-37" >Reliability</a>                                                                                    </li>
+
+                                                                </ul>
+                                                    </div>
+
+                                            </li>
+                                            <li class="quantum-megamenu__list-item ">
+<a href="../../../products.html" class=" quantum-megamenu__link gtm-header" ca1="" menu-name="Products"  menu-type="header"" target="" value="FLItem-3" >                                                            <span class="quantum-megamenu__link-text">
+                                                                PRODUCTS
+                                                            </span>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--expand-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                                </svg>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--collapse-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                                </svg>
+</a>                                                                                                    <div class="quantum-megamenu__menu">
+                                                                <ul class="quantum-megamenu__menu-column ">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../products.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Science"  menu-type="header"" target="" value="FLItem-3-SLItem-38" >Overview</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="http://www.amgenmedinfo.com/" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Medical Information"  menu-type="header"  rel="noopener"" target="_blank" value="FLItem-3-SLItem-39" >Medical Information <i class="fa fa-external-link"></i></a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../products/counterfeit-drug-statement.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Counterfeit Drug Statement"  menu-type="header"" target="" value="FLItem-3-SLItem-40" >Counterfeit Drug Statement</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../products/safety-data-sheets.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Safety Data Sheets"  menu-type="header"" target="" value="FLItem-3-SLItem-41" >Safety Data Sheets</a>                                                                                    </li>
+
+                                                                </ul>
+                                                                <ul class="quantum-megamenu__menu-column desktip-menu-right-icon">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../products/global-patient-safety.html" class="desktip-menu-right-icon quantum-megamenu__menu-link desktop-submenu-right-icon gtm-header" ca1="" menu-name="Global Patrient Safety"  menu-type="header"" target="" value="FLItem-3-SLItem-42" >Global Patient Safety</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../products/global-patient-safety/who-we-are.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Who We Are"  menu-type="header"" target="" value="FLItem-3-SLItem-43" >Who We Are</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../products/global-patient-safety/our-commitment.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Our Commitment"  menu-type="header"" target="" value="FLItem-3-SLItem-44" >Our Commitment</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../products/global-patient-safety/what-we-do.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="What We Do"  menu-type="header"" target="" value="FLItem-3-SLItem-45" >What We Do</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../products/global-patient-safety/adverse-event-reporting.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Adverse Event and Product Complaint Reporting"  menu-type="header"" target="" value="FLItem-3-SLItem-46" >Adverse Event and Product Complaint Reporting</a>                                                                                    </li>
+
+                                                                </ul>
+                                                    </div>
+
+                                            </li>
+                                            <li class="quantum-megamenu__list-item ">
+<a href="../../../responsibility.html" class=" quantum-megamenu__link gtm-header" ca1="" menu-name="Responsibility"  menu-type="header"" target="" value="FLItem-4" >                                                            <span class="quantum-megamenu__link-text">
+                                                                Responsibility
+                                                            </span>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--expand-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                                </svg>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--collapse-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                                </svg>
+</a>                                                                                                    <div class="quantum-megamenu__menu">
+                                                                <ul class="quantum-megamenu__menu-column ">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Responsibility"  menu-type="header"" target="" value="FLItem-4-SLItem-47" >Overview</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/environmental-social-and-governance-report.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Environmental Social and Governance Report 2021"  menu-type="header"" target="" value="FLItem-4-SLItem-48" >Environmental, Social &#38; Governance Report 2021</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/environment-social-and-governance-strategy.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Environment Social and Governance Strategy"  menu-type="header"" target="" value="FLItem-4-SLItem-49" >Environment, Social and Governance Strategy</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-people.html" class="mega-menu-innerlist quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Healthy People"  menu-type="header"" target="" value="FLItem-4-SLItem-50" >Healthy People</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-people/access-to-medicines.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Access to Medicines"  menu-type="header"" target="" value="FLItem-4-SLItem-51" >Access to Medicines</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-people/health-equity.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Health Equity"  menu-type="header"" target="" value="FLItem-4-SLItem-52" >Health Equity</a>                                                                                    </li>
+
+                                                                </ul>
+                                                                <ul class="quantum-megamenu__menu-column ">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-society.html" class=" quantum-megamenu__menu-link  gtm-header" ca1="" menu-name="Healthy Society"  menu-type="header"" target="" value="FLItem-4-SLItem-53" >Healthy Society</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-society/diversity-and-inclusion.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Diversity Inclusion and Belonging"  menu-type="header"  rel="noopener"" target="" value="FLItem-4-SLItem-54" >Diversity, Inclusion and Belonging</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-society/human-capital-management.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Human Capital Management"  menu-type="header"  rel="noopener"" target="" value="FLItem-4-SLItem-55" >Human Capital Management</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-society/community-investment.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Community Investment and Amgen Foundation"  menu-type="header"" target="" value="FLItem-4-SLItem-56" >Community Investment and Amgen Foundation</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../partners/suppliers/supplier-diversity.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Supplier Diversity"  menu-type="header"" target="" value="FLItem-4-SLItem-57" >Supplier Diversity</a>                                                                                    </li>
+
+                                                                </ul>
+                                                                <ul class="quantum-megamenu__menu-column desktip-menu-right-icon">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-planet.html" class="desktip-menu-right-icon quantum-megamenu__menu-link desktop-submenu-right-icon gtm-header" ca1="" menu-name="HealthyPlanet"  menu-type="header"" target="" value="FLItem-4-SLItem-58" >Healthy Planet</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-planet/environmental-sustainability.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Environmental Sustainability"  menu-type="header"" target="" value="FLItem-4-SLItem-59" >Environmental Sustainability</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/healthy-planet/supplier-sustainability.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Supplier Sustainability"  menu-type="header"" target="" value="FLItem-4-SLItem-60" >Supplier Sustainability</a>                                                                                    </li>
+
+                                                                </ul>
+                                                                <ul class="quantum-megamenu__menu-column desktip-menu-right-icon">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/a-healthy-amgen.html" class="desktip-menu-right-icon quantum-megamenu__menu-link desktop-submenu-right-icon gtm-header" ca1="" menu-name="A Healthy Amgen"  menu-type="header"" target="" value="FLItem-4-SLItem-61" >A Healthy Amgen</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about/how-we-operate/corporate-governance.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Corporate Governance"  menu-type="header"" target="" value="FLItem-4-SLItem-62" >Corporate Governance</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/a-healthy-amgen/business-ethics-and-compliance.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Business Ethics and Compliance"  menu-type="header"" target="" value="FLItem-4-SLItem-63" >Business Ethics and Compliance</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/a-healthy-amgen/ethical-research.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Ethical Research"  menu-type="header"" target="" value="FLItem-4-SLItem-64" >Ethical Research</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../products/global-patient-safety.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Patient Safety"  menu-type="header"" target="" value="FLItem-4-SLItem-65" >Patient Safety</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../about/how-we-operate/policies-practices-and-disclosures/business-conduct/quality.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Product Quality"  menu-type="header"" target="" value="FLItem-4-SLItem-66" >Product Quality</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/a-healthy-amgen/cybersecurity-and-data-privacy.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Cybersecurity and Data Privacy"  menu-type="header"" target="" value="FLItem-4-SLItem-67" >Cybersecurity and Data Privacy</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/reporting-and-metrics.html" class="mega-menu-innerlist quantum-megamenu__menu-link desktop-submenu-right-icon gtm-header" ca1="" menu-name="Reporting and Metrics"  menu-type="header"" target="" value="FLItem-4-SLItem-68" >Reporting and Metrics</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/reporting-and-metrics/summary-of-data.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Summary of Data"  menu-type="header"" target="" value="FLItem-4-SLItem-69" >Summary of Data</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/reporting-and-metrics/cdp.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="CDP"  menu-type="header"" target="" value="FLItem-4-SLItem-70" >CDP</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../responsibility/reporting-and-metrics/archived-reports.html" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Archived Reports"  menu-type="header"" target="" value="FLItem-4-SLItem-71" >Archived Reports</a>                                                                                    </li>
+
+                                                                </ul>
+                                                    </div>
+
+                                            </li>
+                                            <li class="quantum-megamenu__list-item ">
+<a href="../../../stories.html" class=" quantum-megamenu__link gtm-header" ca1="" menu-name="Stories"  menu-type="header"" target="" value="FLItem-5" >                                                            <span class="quantum-megamenu__link-text">
+                                                                Stories
+                                                            </span>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--expand-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-right-regular"></use>
+                                                                </svg>
+                                                                <svg class="quantum-icon quantum-megamenu__link-icon quantum-megamenu__link-icon--collapse-dropdown">
+                                                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#angle-left-regular"></use>
+                                                                </svg>
+</a>                                                                                                    <div class="quantum-megamenu__menu">
+                                                                <ul class="quantum-megamenu__menu-column ">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="../../../stories.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="All Stories"  menu-type="header"" target="" value="FLItem-5-SLItem-72" >All Stories</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../categories/responsibility.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Responsibility"  menu-type="header"" target="" value="FLItem-5-SLItem-73" >Responsibility</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../categories/people-and-culture.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="People and Culture"  menu-type="header"" target="" value="FLItem-5-SLItem-74" >People and Culture</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../categories/science-and-innovation.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Science and Innovation"  menu-type="header"" target="" value="FLItem-5-SLItem-75" >Science and Innovation</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../categories/patients.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Patients"  menu-type="header"" target="" value="FLItem-5-SLItem-76" >Patients</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../categories/leadership.html" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Leadership"  menu-type="header"" target="" value="FLItem-5-SLItem-77" >Leadership</a>                                                                                    </li>
+
+                                                                </ul>
+                                                                <ul class="quantum-megamenu__menu-column ">
+                                                                            <li class="quantum-megamenu__menu-list-item">
+<a href="#" class=" quantum-megamenu__menu-link gtm-header" ca1="" menu-name="Popular Tags"  menu-type="header"" target="" value="FLItem-5-SLItem-78" >Popular Tags</a>                                                                            </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../stories1ecd.html?tag=COVID-19" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="COVID-19"  menu-type="header"" target="" value="FLItem-5-SLItem-79" >COVID-19</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../stories88a2.html?tag=Supporting%20Our%20Staff" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Supporting Our Staff"  menu-type="header"" target="" value="FLItem-5-SLItem-80" >Supporting Our Staff</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../storiesed38.html?tag=Leveraging%20Our%20Science" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Leveraging Our Science"  menu-type="header"" target="" value="FLItem-5-SLItem-81" >Leveraging Our Science</a>                                                                                    </li>
+                                                                                    <li class="quantum-megamenu__menu-list-item">
+<a href="../../../stories3d6c.html?tag=Serving%20Our%20Communities" class=" quantum-megamenu__menu-link gtm-header sub-menu-item" ca1="" menu-name="Serving Our Communities"  menu-type="header"" target="" value="FLItem-5-SLItem-82" >Serving Our Communities</a>                                                                                    </li>
+
+                                                                </ul>
+                                                    </div>
+
+                                            </li>
+                                            <li class="quantum-megamenu__list-item right-links media">
+<a href="../../../newsroom.html" class=" quantum-megamenu__link gtm-header" ca1="" menu-name="Newsroom"  menu-type="header"" target="" value="FLItem-6" >                                                            <span class="quantum-megamenu__link-text">
+                                                                Newsroom
+                                                            </span>
+</a>                                                
+                                            </li>
+                                            <li class="quantum-megamenu__list-item right-links">
+<a href="../../../partners.html" class=" quantum-megamenu__link gtm-header" ca1="" menu-name="Partners"  menu-type="header"" target="" value="FLItem-7" >                                                            <span class="quantum-megamenu__link-text">
+                                                                Partners
+                                                            </span>
+</a>                                                
+                                            </li>
+                                            <li class="quantum-megamenu__list-item right-links">
+<a href="http://investors.amgen.com/" class=" quantum-megamenu__link gtm-header" ca1="" menu-name="Investors"  menu-type="header"  rel="noopener"" target="_blank" value="FLItem-8" >                                                            <span class="quantum-megamenu__link-text">
+                                                                Investors <i class="fa fa-external-link"></i>
+                                                            </span>
+</a>                                                
+                                            </li>
+                                            <li class="quantum-megamenu__list-item right-links">
+<a href="http://careers.amgen.com/" class=" quantum-megamenu__link gtm-header" ca1="" menu-name="Careers"  menu-type="header"  rel="noopener"" target="_blank" value="FLItem-9" >                                                            <span class="quantum-megamenu__link-text">
+                                                                Careers <i class="fa fa-external-link"></i>
+                                                            </span>
+</a>                                                
+                                            </li>
+                                            <li class="quantum-megamenu__list-item right-links-web">
+                                                    <a class="quantum-megamenu__link" href="#" data-value="FLItem-10">
+                                                        <span class="quantum-megamenu__link-text">
+
+<a href="../../../amgen-worldwide.html" class=" quantum-megamenu__link gtm-header" menu-type="header" menu-name="amgen worldwide" target="" value="FLItem-2">    
+<div class="amgen-web">
+
+
+
+
+           
+<img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Header/globe-icon.svg" alt="amgen-worldwide-web">
+
+</div>
+</a>                                                        </span>
+                                                    </a>
+                                                
+                                            </li>
+                                            <li class="quantum-megamenu__list-item d-none d-md-block right-links-search">
+                                                    <a class="quantum-megamenu__link" href="#" data-value="FLItem-11">
+                                                        <span class="quantum-megamenu__link-text">
+<div class="search-result-box">
+<input type="text" id="searchTextBox-mobile" class="search-input" placeholder="Search">
+
+
+<button id="searchSubmitBtn-mobile" class="search-btn" data-searchurl="/search-results"><img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Header/search-icon.svg" alt="search-icon"></button>
+<button id="searchSubmitBtn-mobile1" class="search-close" data-searchurl="/search-results" aria-label="desktop-search-icon">
+<img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Header/close-icon.svg" alt="search"></button>
+</div>                                                        </span>
+                                                    </a>
+                                                
+                                            </li>
+
+                            </ul>
+
+                            <ul class="quantum-megamenu__top-nav-list">
+                            </ul>
+
+                        </nav>
+
+                    </div>
+                    <div class="quantum-header__mobile-content">
+                            <button class="quantum-button quantum-button--tertiary quantum-header__icon-button quantum-button--large quantum-button--icon-only" type="button">
+                                <svg class="quantum-icon quantum-button__icon">
+                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#search-regular"></use>
+                                </svg>
+                            </button>
+                            <button class="quantum-button quantum-button--tertiary quantum-header__icon-button quantum-header__menu-trigger quantum-header__menu-trigger--expand-menu quantum-button--large quantum-button--icon-only" type="button">
+                                <svg class="quantum-icon quantum-button__icon">
+                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#bars-regular"></use>
+                                </svg>
+                            </button>
+                            <button class="quantum-button quantum-button--tertiary quantum-header__icon-button quantum-header__menu-trigger quantum-header__menu-trigger--collapse-menu quantum-button--large quantum-button--icon-only" type="button">
+                                <svg class="quantum-icon quantum-button__icon">
+                                    <use xlink:href="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Common/Icon/amgen-com.svg#close-light"></use>
+                                </svg>
+                            </button>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    <div class="quantum-search-suggest">
+        <div class="component-content">
+            <label for="textBoxSearch">
+                
+            </label>
+            <input type="search" class="quantum-search-box-input" autocomplete="off" name="textBoxSearch" placeholder="Search Amgen.com..." />
+
+
+                <button class="quantum-search-box-button-with-redirect" type="submit" data-searchURL="/search-results">
+                    
+                </button>
+
+
+            <span class="quantum-search-clear">
+                
+            </span>
+            <button class="quantum-search-btn-close">X</button>
+                <input type="hidden" id="searchtag" name="tag" value="" />
+
+        </div>
+    </div>
+<button class="quantum-search-btn-close menu-search-close-button" aria-label="close-icon"></button>
+
+
+
+
+
+
+
+
+
+        
+    </header>
+    
+
+    <div class="component article-banner ">
+        <div class="component-content">
+<div class="text-wrapper wrapper-landscape-img">
+<div class="component breadcrumb navigation-title">
+    <div class="component-content">
+        <nav>
+            <ol>
+                    <li class="breadcrumb-item home">
+<div class="navigation-title field-navigationtitle"><a title="Home" href="../../../index.html">Home</a></div>                            <span class="separator">&gt;</span>
+                    </li>
+                    <li class="breadcrumb-item ">
+<div class="navigation-title field-navigationtitle"><a title="Stories" href="../../../stories.html">Stories</a></div>                            <span class="separator">&gt;</span>
+                    </li>
+                    <li class="breadcrumb-item last">
+<div class="navigation-title field-navigationtitle"><a title="Applying the Power of Omics to R&amp;D" href="applying-the-power-of-omics-to-r-and-d.html">Applying the Power of Omics to R&amp;D</a></div>                            <span class="separator">&gt;</span>
+                    </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="main-section"><div class="d-none d-sm-block field-image"><img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/science/10-14-applying-the-power-of-omics/Power-of_Omics--1440.12?iar=0&amp;hash=F547D61ECAD501AED9AD1C19863E7E09" alt="Power-of_Omics--1440" data-variantitemid="{801F878B-086C-4B19-97D3-73F8495721B0}" data-variantfieldname="Image" /></div><div class="d-block d-sm-none field-mobile-image"><img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/science/10-14-applying-the-power-of-omics/Power-of_Omics--376.123?h=321&amp;iar=0&amp;w=376&amp;hash=B20718703EAEFF07E0EA545FEE039DB2" alt="Power-of_Omics--376" width="376" height="321" data-variantitemid="{801F878B-086C-4B19-97D3-73F8495721B0}" data-variantfieldname="Mobile Image" /></div><div class="image-caption">
+<p class="field-image-caption"></p>
+
+</div><div class="adjust-width"><div class="text-section"><div class="tab-section"><span class="field-category field-title"><a title="Science and Innovation" href="../../categories/science-and-innovation.html">SCIENCE &amp; INNOVATION</a></span>
+<span class="field-entry-date">04.05.2021</span></div><h1 class="field-title">Applying the Power of Omics to R&D</h1><div class="field-introduction">In a drive to transform how medicines are discovered, developed, and used, Amgen and its deCODE Genetics subsidiary are mining human data at a scale that was once unimaginable.</div></div></div></div></div>        </div>
+    </div>
+<link rel="stylesheet" href="../../../../maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+<article class="wb-article-detail container">
+    
+    <div class="row top article-landscape-image top">
+  <div class="col-12 wb-article-content">
+    <div class="row">
+      <iframe width="853" height="480" src="https://www.youtube.com/embed/skip1BmnSto?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+<br>
+<br>
+
+    <!-- <div class="component container col-12 white-bg faq-accordion-container">
+      <div class="component-content">
+        <div class="quantum-accordion  " id="">
+          <div class="quantum-accordion__item">
+            <div class="quantum-accordion__item-header">
+              <h4 class="quantum-accordion__item-header-label">Show Transcript</h4>
+              <svg class="quantum-icon quantum-accordion__item-header-icon quantum-accordion__item-header-icon--closed  " viewBox="0 0 320 512">
+                <path d="M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z"></path>
+              </svg>
+              <svg class="quantum-icon quantum-accordion__item-header-icon quantum-accordion__item-header-icon--open  " viewBox="0 0 320 512">
+                <path d="M168.5 164.2l148 146.8c4.7 4.7 4.7 12.3 0 17l-19.8 19.8c-4.7 4.7-12.3 4.7-17 0L160 229.3 40.3 347.8c-4.7 4.7-12.3 4.7-17 0L3.5 328c-4.7-4.7-4.7-12.3 0-17l148-146.8c4.7-4.7 12.3-4.7 17 0z"></path>
+              </svg>
+            </div>
+            <div class="quantum-accordion__item-contents" style="display: none;">
+              <div class="quantum-accordion__item-contents-inner">
+                <p><strong>Narrator</strong><br>
+                  In the last 10 years, the world has spent well over a trillion dollars in pursuit of deeper insights into disease and better therapies. Scientists at Amgen believe many answers that we’re seeking can be found in DNA and the human data now being collected around the world. The challenge is working effectively with the oceans of data needed to paint a clear picture of how disease happens and how we can stop it.</p>
+                <p><strong>Dave Reese</strong><br>
+                  I started as an intern in internal medicine 30 years ago, where we dreamed about some future where we could actually use genetics and other techniques to really affect the practice of medicine. Now we are right on the threshold where that is happening. We are making those dreams a reality.</p>
+                <p><strong>Kári Stefánsson</strong><br>
+                  And the reason we can do this today is that we can gather, we can store, and we can mine data of a magnitude that was inconceivable only ten, 15 years ago.</p>
+                <p><strong>Narrator</strong><br>
+                  Iceland may be small in population, but the country has had a major impact on human genetic research.</p>
+                <p><strong>Dave Reese</strong><br>
+                  In 2012, Amgen acquired deCODE Genetics, and to me this was an absolute watershed moment in this industry. They had about two thousand 600 whole genomes, a couple of hundred thousand individuals on whom they had done genotyping. Now there are over a million and half individuals encompassed in the genetic databases We have embarked on new collaborations that will add a million more. Now we are in, I think, a very important transitional period where we want to go from scale to depth.</p>
+                <p><strong>Narrator</strong><br>
+                  Some of that depth will come from proteomics—the study of proteins present in blood or tissue.</p>
+                <p><strong>Ray Deshaies</strong><br>
+                  So I look at the DNA sequence, that’s kind of like a blueprint of a house. The proteomics on the other hand. That’s kind of like when you go into a room and you see the floor treatments and window treatments and wall treatments and what furniture is present – those things are all like the proteins. So the blueprint tells you what’s possible, the proteomics tells you what is.</p>
+                <p>I just went to get a checkup. There were ten different proteins that were being measured in my blood work. If we do proteomics, we can now measure, with a partner we’re working with, 5,000 proteins.</p>
+                <p><strong>Kári Stefánsson</strong><br>
+                  By combining genetics and proteins, we can find people with extraordinary risk of heart attack. The number of conditions where you can assess risk by the use of proteins, not to mention risk of proteins in combination with genetics, is astonishing. It’s going to have a major impact on our ability to find new drug targets. It’s going to revolutionize the way in which clinical trials are designed and interpreted.</p>
+                <p><strong>Narrator</strong><br>
+                  Amgen is already using genetic data to design trials focused on patients most likely to benefit from a new test drug.</p>
+                <p><strong>Elliott Levy</strong><br>
+                  The questions that we face in clinical development are very similar to the questions that doctors face in treating patients. Patients want to know what’s going to happen to them, whether their disease is going to go away, or worsen, and they want to know whether or not they’ll benefit from a therapy. These questions are difficult to answer.</p>
+                <p>With genetics we’ll be able to predict, in a way we never could before, how a patient’s disease is going to evolve.  If we could focus our clinical trial recruitment on the patients that are most likely to suffer adverse outcomes from their disease, then we can dramatically reduce the size of our trials, and shorten the trial duration, and increase the probability of success.</p>
+                <p><strong>Narrator</strong><br>
+                  Genetics is also being applied to the worldwide fight against the coronavirus. DeCODE has played a large role in helping Iceland contain the virus, testing tens of thousands of people and sequencing every sample of virus they detected. The resulting genetic insights increased the world’s knowledge of SARS CoV-2 and are now informing the search for COVID-19 therapies. </p>
+                <p><strong>Kári Stefánsson</strong><br>
+                  This team has been working together for almost a quarter of a century, and it is almost like everything else we have done, it feels like it was merely a preparation for this. We have enormous amounts of data on the people who got infected. We are in a privileged position to look at the genetics of the patients and to see how the genetics influences the probability of getting infected and the probability of getting seriously ill when you become infected.</p>
+                <p><strong>Narrator</strong><br>
+                  The unsung heroes of research both in Iceland and around the world are the volunteers who grant access to their genetic and health information. That includes James and Josie Greig, participants in the UK Biobank.</p>
+                <p><strong>Josie Greig</strong><br>
+                  I decided to do it because I’m around the right age and my father died young. He had a thrombosis of the lung when he was 33 which is very young. And then he went on to develop emphysema and he suffered terribly through that. So if this can help people like that not have to go through all that trauma and distress, it’s worth it.</p>
+                <p><strong>James Greig</strong><br>
+                  Being a participant in Biobank did involve a lot of input from our side. We had a lot of tests done, blood tests, scans—brain scans, body scans, bone density. So it wasn’t just sort of a five-minute thing. Some of the tests, it was a full day. From my side, I felt that I was doing my bit for science.</p>
+                <p><strong>Narrator</strong><br>
+                  There are half a million participants in the UK Biobank, and deCODE is one of two providers now sequencing all their genomes. That’s still just a relative fraction of the massive data pipeline deCODE is building with Amgen’s support.</p>
+                <p><strong>Kári Stefánsson</strong><br>
+                  Science is done by scientists. You will never see spectacular science done in a place that has simply great infrastructure and a lot of data. So I think that the most astonishing thing you are going to find in this building are the people working here. They are the ones who deserve the credit for all of this.</p>
+                <p><strong>Ray Deshaies</strong><br>
+                  High-level scientific talent, I think the really creative people who are visionary, they understand how important this human genetic data is, and they want to work at a place like Amgen that is forging the lead in using that data to make medicines.</p>
+                <p><strong>Dave Reese</strong><br>
+                  I think we have a chance to drive medicine in almost unimaginable directions with these insights. I want to be part of that. I want Amgen to help lead it.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+    <p>Despite the ever-increasing sophistication of modern medicine, it is often surprisingly hard for doctors to answer the most common questions that patients ask.</p>
+    
+    <p>&ldquo;Patients want to know what is going to happen to them, whether their disease is going to go away, or worsen, and they want to know whether or not they will benefit from a therapy,&rdquo; said Rob Lenz, senior VP, R&D Global Development at Amgen. &ldquo;I remember countless conversations I had as a physician. My patients wanted certainty. All I could give them was uncertainty.&rdquo;</p>
+    
+    <p>Scientists at Amgen believe greater certainty can be found by diving deeper into the oceans of human data contained within each of us. There&rsquo;s enough raw information in a single human genome to fill a small library—and genomics, the study of our DNA, is just one branch in the burgeoning field of science informally known as &ldquo;omics.&rdquo; The genes in our DNA are like unspoken words until they&rsquo;re transcribed into RNA, and the science of transcriptomics can tell us which genes are being expressed and which are silent. RNA, in turn, provides the template cells use to assemble the myriad proteins that drive biology, and proteomics now offers a detailed census of proteins present in blood or tissue.</p>
+    <p>The data points flowing from various branches of omics are like pixels that can be pieced together to build a sharper picture of how disease takes root and develops. The technology has the potential to deliver new biomarkers for earlier diagnosis of disease, faster and more successful clinical trials, and the ability to predict and prevent disease before it becomes more grievous and costly.</p>
+
+    <h3>deCODE&rsquo;s rapidly growing data pipeline</h3>
+    
+    <p>In the quest to apply a multi-omics approach to drug discovery and development, Amgen has had a head start thanks to its deCODE genetics subsidiary in Iceland. Genomics is the most mature branch of omics, and under founder Kári Stefánsson, deCODE had already built a world-class reputation for gene discovery before its 2012 acquisition by Amgen. The company pioneered the concept of collecting large-scale genetic and health data and using sophisticated statistical methods to find significant links between these two data sets.</p>
+    <div class="row no-gutters justify-content-center">
+      <div class="col-md-10">
+        <div class="visual"> <img class="th" alt="" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/science/10-14-applying-the-power-of-omics/DeCODE-Sequencing-Labs"> </div>
+        <div class="capcontainer">
+          <p class="caption">deCODE's genome sequencing lab </p>
+        </div>
+      </div>
+    </div>
+    <p>&ldquo;It is easy to forget that when Kári founded deCODE Genetics, these concepts were considered quite radical and unlikely to succeed. He was both literally and figuratively on a small island of his own,&rdquo; said Mark Daly, a director of the Institute for Molecular Medicine Finland and co-director of the Broad Institute&rsquo;s Program in Medical and Population Genetics. &ldquo;Kári and his impressive team have made a massively outsized contribution to human genetics.&rdquo;</p>
+
+    <p>In the years since the Amgen acquisition, deCODE has expanded its groundbreaking research well beyond its Icelandic base. &ldquo;The principal task of human genetics is the study of human diversity, and the diversity in Iceland is somewhat limited because we are a small and relatively homogenous population,&rdquo; said Kári, &ldquo;To capture more rare variants in the sequence of the genome that affect risk of disease, we have extended our work outside of Iceland and now have over two and a half million people from all over the world participating in our research.&rdquo;</p>
+
+
+    <p>That includes the 500,000 participants in the UK Biobank, a research charity that is following the health of its many older volunteers to improve disease diagnosis, treatment, and prevention. The Whole Genome Sequencing Project—the largest effort of its kind yet undertaken—aims to read the full genomes of all half million UK Biobank participants. In September 2019, deCODE was selected as one of just two sequencing providers for the project, along with the Wellcome Sanger Institute in the UK. Amgen is one of four corporate partners helping to fund the project, which also has the support of the UK government and the Wellcome Trust. Earlier in 2019, deCODE and Intermountain Healthcare, a Utah-based healthcare delivery network, announced a separate collaboration to analyze the genomes of up to 500,000 Intermountain patients.</p>
+
+    <p>&ldquo;The reason we can do this work today,&rdquo; observed Kári, &ldquo;is that we can gather, we can store, and we can mine data of a magnitude that was inconceivable only ten or 15 years ago.&rdquo; (See &ldquo;deCODE by the Numbers&rdquo;)</p>
+ 
+    <p>&nbsp;</p>
+    <div class="    quantum-cta  " id=""> <a href="#" class=" quantum-cta__inner model-pop-up-open" data-attr="modal-one"> <img class="th" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/science/10-14-applying-the-power-of-omics/DeCODE-by-the-numbers-v"/> </a> </div>
+
+    <p>As deCODE&rsquo;s data pipeline has expanded, so has its role within Amgen&rsquo;s R&amp;D strategy. &ldquo;When we acquired deCODE in 2012, we were almost exclusively focused on how they could help us to discover and evaluate drug targets through human genetics,&rdquo; said David Reese, Amgen&rsquo;s executive vice president for R&amp;D. &ldquo;Now, we&rsquo;re layering in genetics and other types of human data across the whole spectrum of R&amp;D challenges, from guiding our insights into disease biology through drug safety and how we design clinical trials.</p>
+    <p>&ldquo;We believe we have the right sequencing collaborations in place now to provide the breadth and diversity of genetic data we need to make the discoveries we are pursuing,&rdquo; Reese added. &ldquo;Now, we want to go from scale to depth by characterizing the biology of research participants in greater detail.&rdquo;</p>
+    <h3>From genes to proteins</h3>
+    <p>The technology required to add that depth has made rapid progress in recent years. Proteomics, for example, can now identify proteins found at miniscule levels in the blood.</p>
+    <p>&ldquo;The proteins we really want to measure—the cytokines with profound impacts on biological systems—these are present at much lower levels than the proteins that get measured in a standard blood test,&rdquo; said Ray Deshaies, senior VP of Global Research at Amgen. &ldquo;In fact, the total variation from the least abundant proteins in blood to the most abundant protein, albumin, is 10 <em>billion</em>-fold. Fortunately, there are now companies that can measure proteins across that whole range.&rdquo;</p>
+	  
+	  
+	  
+	  <div class="blue-quote-text">
+      <div>The number of conditions where you can assess risk by the use of proteins in combination with genetics is astonishing. This is going to have a major impact on our ability to find new drug targets. It will significantly change the way in which clinical trials are designed and interpreted.</div>
+      <div class="quote-text-grey">— Kári Stefánsson</div>
+    </div>
+	  
+	  
+
+    <p>In what may be the largest proteomics experiment to date, deCODE and a collaborator measured the relative levels of roughly 5,000 different proteins in plasma collected from 37,000 Icelanders whose genomes had already been sequenced. The early results from this project and similar research now underway at Amgen &ldquo;are yielding all kinds of exciting observations,&rdquo; said Kári.</p>
+    <p>&ldquo;On the basis of proteins in plasma, we can identify individuals who are at high probability of dying within the next five years,&rdquo; he added. &ldquo;By combining genetics and proteins, we can find people with extraordinary risk of heart attack. The number of conditions where you can assess risk by the use of proteins in combination with genetics is astonishing. This is going to have a major impact on our ability to find new drug targets. It will significantly change the way in which clinical trials are designed and interpreted.&rdquo;</p>
+
+
+    <h3>Smaller clinical trials with bigger results</h3>
+    
+    <p>That change has already begun at Amgen, where drug development teams are starting to use genetic risk scores to identify the patients most likely to need and benefit from new investigational therapies. These polygenic scores measure the risk of developing a disease based on the total number of genetic changes related to that disease.</p>
+
+    <p>&ldquo;We can use polygenic risk scores to ensure we&rsquo;re not mixing patients with very different types or degrees of risk in the same study,&rdquo; said Lenz. &ldquo;We can also use them to identify and enroll high-risk patients who might benefit most from a test drug if it&rsquo;s effective. A drug&rsquo;s treatment effect should emerge sooner and more clearly in patients at greater risk for poor outcomes.&rdquo;</p>
+    
+    <p>Genetic risk scores, augmented by proteomics, could reduce the uncertainties that inflate the size, duration, and cost of trials, especially cardiovascular outcomes studies. &ldquo;In the first year after a heart attack, only about 10 percent of patients will have another event,&rdquo; Lenz observed. &ldquo;Until now, companies haven&rsquo;t had a good way to identify these very high-risk patients, so we enroll people who have had a previous heart attack in our studies, knowing we can only prevent a subsequent heart attack in the small fraction of these patients who will actually have one.</p>
+    <p>&ldquo;With genetics and related data, we will get much better at distinguishing different levels of risk, and that will make a huge difference. It will allow us to dramatically reduce the size and duration of our trials, increase the probability of success and the size of the treatment effect, and get our medicines approved and into the hands of the patients who need them much sooner.&rdquo;</p>
+    <h3>Pivoting in response to COVID-19</h3>
+    <p>Improved trial design is just one of multiple ways that human data is already being applied to support R&amp;D at Amgen. Scientists there have relied on their deCODE counterparts for insights into the quality of published genetic research and the potential safety implications of drug targets (see &ldquo;7 Ways Amgen Is Using Human Data to Improve R&amp;D Success&rdquo;).</p>
+    <div class="    quantum-cta  " id=""> <a href="#" class=" quantum-cta__inner model-pop-up-open" data-attr="modal-two"> <img class="th" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/science/10-14-applying-the-power-of-omics/Seven-Ways-Amgen-Is-Usi"/> </a> </div>
+    
+    <p>In addition to supporting Amgen&rsquo;s work, deCODE scientists have maintained an interest in basic genetic research, publishing groundbreaking research on topics as diverse as the role of Neanderthal DNA in modern genomes and new ways to assess how genetic and environmental factors contribute to complex traits. In 2020, the year of COVID-19, deCODE pivoted to address the pandemic in Iceland, tracking the spread of coronavirus by studying genetic mutations in SARS-CoV-2 and measuring the durability of human antibodies to the virus. deCODE&rsquo;s role in Iceland&rsquo;s pandemic response wasn&rsquo;t limited to research. With Amgen&rsquo;s full support, the company used its DNA sequencing capabilities to help contain the virus in Iceland by testing tens of thousands of people.</p>
+    <p>&ldquo;This team has been working together for almost a quarter of a century, and it is almost like everything else we have done, it feels like it was merely a preparation for this,&rdquo; said Kári. &ldquo;We have enormous amounts of data on the people who got infected. We are in a privileged position to look at the genetics of the patients and to see how the genetics influences the probability of getting infected and the probability of getting seriously ill when you become infected.&rdquo;</p>
+
+    <h3>&ldquo;The ultimate in personalized medicine&rdquo;</h3>
+    <p>Human data isn&rsquo;t a cure-all for the risks inherent in biopharma research. While it is estimated that genetic support can boost a drug&rsquo;s odds of success in the clinic from 10 percent to 20 percent, that improvement is hardly a guarantee against failure. This point was underscored by the lack of success at Amgen and elsewhere in investigating the prevention of Alzheimer&rsquo;s disease by inhibiting BACE, a target with robust genetic validation. While Alzheimer&rsquo;s has been an especially difficult challenge, scientists face the same basic hurdle in any disease they study.</p>
+	  
+	  
+	  
+	  	  <div class="blue-quote-text">
+      <div>In the long run, our goal is to provide the ultimate in personalized medicine—getting the right therapy in the right dose to the right patient at the right time. </div>
+      <div class="quote-text-grey">— Dave Reese</div>
+    </div>
+	  
+	  
+
+    <p>&ldquo;I came to Amgen from academia, and my early training was as a yeast geneticist,&rdquo; said Deshaies. &ldquo;One thing I learned from that experience is that scientists can form preconceived notions of how nature works and how diseases work, but we&rsquo;re almost always wrong because nature is so complicated. But genetics is still one of the most powerful tools we can apply to understand how nature works.</p>
+    <p>&ldquo;High-level scientific talent — the really creative people who are visionary — they understand how important this human genetic, proteomic, and transcriptomic data are for the future of our business. They want to work at a place like Amgen that is forging the lead in using these data to make medicines.&rdquo;</p>
+    <p>The draw is not only in making medicines, but also in making them more valuable by reducing the uncertainty about which treatments may help a given patient. &ldquo;With genetics and other human data, we&rsquo;ll be able to predict, in a way we never could before, how a patient&rsquo;s disease is going to evolve,&rdquo; said Lenz. &ldquo;That will allow us to distinguish between patients who need aggressive therapy and those for whom a watchful waiting approach is appropriate.&rdquo;</p>
+
+    <p>Reese said that&rsquo;s precisely the vison that&rsquo;s driving Amgen. &ldquo;In the long run, our goal is to provide the ultimate in personalized medicine—getting the right therapy in the right dose to the right patient at the right time. We have a chance to drive medicine in almost unimaginable directions, and I want to be part of that. I want Amgen to help lead it.&rdquo;</p>
+    <p>&nbsp;</p>
+  </div>
+</div>
+
+<style>
+.faq-accordion-container>.component-content {
+    max-width: 1110px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px 0;
+    float: left;
+}
+
+@media screen and (min-width: 1200px) {
+.top {
+margin-top:15rem;
+}
+.blog-pages .article-banner>.component-content .text-wrapper.wrapper-landscape-img .main-section .image-caption .field-image-caption {
+    width: 48%;
+}
+}
+
+</style>
+
+        <div class="wb-entry-tags wb-panel">
+        <h3>Tags </h3>
+        <ul>
+                    <li><a href="../../../storiesac2d.html?tag=Amgen%20Science">Amgen Science</a></li>
+        </ul>
+    </div>
+<div class="wb-entry-share wb-panel">
+    <h3>Share This Story</h3>
+    <div class="wb-entries">
+        <div class="sharethis-inline-share-buttons"></div>
+    </div>
+</div>
+
+</article>
+
+    <div class="article-section">
+    </div>
+
+    <div class="component content related-section half-background">
+        <div class="component-content">
+            <div class="related-article-component">
+                <div class="related-section-view-more">
+                        <span class="view-more-text field-section-heading">MORE STORIES</span>
+                        <div class="view-all-link">
+                            <a href="../../categories/science-and-innovation.html">
+                                View All
+                            </a>
+                            <a href="../../categories/science-and-innovation.html" class="arrow-link"></a>
+                        </div>
+                </div>
+                <div class="related-articles">
+<section class="wb-tiles col-md-4 col-xs-12">
+                            <div class="thumbnail">
+                                <a href="../../2022/09/whats-next-at-esmo22.html">
+                                    <img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/2022/09-09-Whats-Next-in-KRAS-at-ESMO22/AO_Sep-22_ESMOArticle_Ban?h=244&amp;iar=0&amp;w=360&amp;hash=B799029C5BD6C1EC1698F799618CD87A" class="wb-image" alt="" width="360" height="244" loading="lazy" />
+                                    
+                                </a>
+                            </div>
+                            <div class="wb-content">
+                                <div class="wb-details">
+                                    <div class="wb-category-date">
+                                            <span class="wb-category">
+                                                <a class="category-link" href="../../categories/science-and-innovation.html">
+
+                                                    SCIENCE &amp; INNOVATION
+
+                                                </a>
+                                            </span>
+                                            <span class="wb-date">09.09.2022</span>
+                                    </div>
+                                    <span class="wb-arrow">
+                                        <a class="arrow-link" href="../../2022/09/whats-next-at-esmo22.html"></a>
+                                    </span>
+                                </div>
+                                <div class="wb-title">
+                                    <a href="../../2022/09/whats-next-at-esmo22.html">What’s Next at #ESMO22</a>
+                                </div>
+                            </div>
+                        </section>
+<section class="wb-tiles col-md-4 col-xs-12">
+                            <div class="thumbnail">
+                                <a href="../../2022/09/listen-in-to-innovating-clinical-trials-the-next-amgen-r-and-d-serial-podcast.html">
+                                    <img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/2022/09-01-Listen-in-to-Innovating-Clinic/360x244.123d4565.delaye?h=244&amp;iar=0&amp;w=360&amp;hash=D60108DC9CDE4569085280CB50CF241B" class="wb-image" alt="" width="360" height="244" loading="lazy" />
+                                    
+                                </a>
+                            </div>
+                            <div class="wb-content">
+                                <div class="wb-details">
+                                    <div class="wb-category-date">
+                                            <span class="wb-category">
+                                                <a class="category-link" href="../../categories/science-and-innovation.html">
+
+                                                    SCIENCE &amp; INNOVATION
+
+                                                </a>
+                                            </span>
+                                            <span class="wb-date">09.01.2022</span>
+                                    </div>
+                                    <span class="wb-arrow">
+                                        <a class="arrow-link" href="../../2022/09/listen-in-to-innovating-clinical-trials-the-next-amgen-r-and-d-serial-podcast.html"></a>
+                                    </span>
+                                </div>
+                                <div class="wb-title">
+                                    <a href="../../2022/09/listen-in-to-innovating-clinical-trials-the-next-amgen-r-and-d-serial-podcast.html">Listen in to <em>Innovating Clinical Trials</em>, the Next Amgen R&D Serial Podcast</a>
+                                </div>
+                            </div>
+                        </section>
+<section class="wb-tiles col-md-4 col-xs-12">
+                            <div class="thumbnail">
+                                <a href="../../2022/08/wrapping-up-amgens-summer-of-science-instagram-series.html">
+                                    <img src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/stories/2022/08-30-Wrapping-Up-Amgens-Summer-of-S/summer-of-science_360x2?h=244&amp;iar=0&amp;w=360&amp;hash=FC2887490C58A5E3D834293BE1858E88" class="wb-image" alt="" width="360" height="244" loading="lazy" />
+                                    
+                                </a>
+                            </div>
+                            <div class="wb-content">
+                                <div class="wb-details">
+                                    <div class="wb-category-date">
+                                            <span class="wb-category">
+                                                <a class="category-link" href="../../categories/science-and-innovation.html">
+
+                                                    SCIENCE &amp; INNOVATION
+
+                                                </a>
+                                            </span>
+                                            <span class="wb-date">08.30.2022</span>
+                                    </div>
+                                    <span class="wb-arrow">
+                                        <a class="arrow-link" href="../../2022/08/wrapping-up-amgens-summer-of-science-instagram-series.html"></a>
+                                    </span>
+                                </div>
+                                <div class="wb-title">
+                                    <a href="../../2022/08/wrapping-up-amgens-summer-of-science-instagram-series.html">Wrapping Up Amgen’s “Summer of Science” Instagram Series</a>
+                                </div>
+                            </div>
+                        </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            <script type="text/javascript" src="../../../../code.jquery.com/jquery-1.12.0.min.js"></script>
+            <script type="text/javascript">
+                if(typeof jQuery == "undefined") {
+                    document.write(unescape("%3Cscript src='/sitecore modules/Web/WeBlog/Themes/common/lib/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+                }
+            </script>
+        <script type="text/javascript" src="../../../sitecore%20modules/Web/WeBlog/Themes/common/jQuery-no-conflict.js"></script>
+        <script type="text/javascript" src="../../../sitecore%20modules/Web/WeBlog/Themes/common/lib/url.min.js"></script>
+        <script type="text/javascript" src="../../../sitecore%20modules/Web/WeBlog/Themes/common/archive.js"></script>
+        <script type="text/javascript" src="../../../sitecore%20modules/Web/WeBlog/Themes/common/tag-cloud.js"></script>
+        <script type="text/javascript" src="../../../sitecore%20modules/Web/WeBlog/Themes/common/load-more.js"></script>
+
+    
+    
+    <footer id="footer" class="footer">
+        
+
+
+
+    <div class="quantum-container--secondary quantum-footer " id="">
+        <div class="quantum-footer__inner">
+
+            
+
+
+    <div class="quantum-footer__logo-social-row">
+
+
+            <a title="Logo" href="../../../index.html" target="" class=" quantum-footer__logo-link " >
+                <svg class="quantum-icon">
+                    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-amgen-logo.svg?h=24&amp;w=100&amp;la=en&amp;hash=E451A9964CD35FC84D612FC5E9DC3071" class="d-none d-sm-block quantum-footer__quantum-logo lozad" alt="Home" />
+                    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-amgen-logo.svg?la=en&amp;hash=555BD3C70967C1A3431C16E52110BF23" class="d-block d-sm-none quantum-footer__quantum-logo lozad" alt="Home" />
+                </svg>
+
+            </a>
+
+
+
+    </div>
+
+
+            <div class="quantum-quicklinks__column">
+<h3 class="quantum-quicklinks__column-header">Stay Connected With Amgen.</h3>
+<ul class="quantum-list-group quantum-quicklinks__column-list-group quantum-list-group--small">
+    <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link gtm-header" menu-name="Linkedin" menu-type="footer" href="https://www.linkedin.com/company/amgen" target="_blank" rel="noopener">
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-linkedin-icon.svg" alt="linkedIn-icon" class="linkedIn-icon d-none d-sm-block lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-linkedin-icon.svg" />
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-linkedin-icon.svg" alt="linkedIn-icon" class="linkedIn-icon d-block d-sm-none lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-linkedin-icon.svg" />
+    </a>
+    </li>
+    <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link gtm-header" menu-name="Twitter" menu-type="footer" href="http://www.twitter.com/amgen" target="_blank" rel="noopener">
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-twitter-icon.svg" alt="twitter-icon" class="twitter-icon d-none d-sm-block lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-twitter-icon.svg" />
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-twitter-icon.svg" alt="twitter-icon" class="twitter-icon d-block d-sm-none lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-twitter-icon.svg" />
+    </a>
+    </li>
+    <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link gtm-header" menu-name="Youtube" menu-type="footer" href="https://www.youtube.com/user/Amgen" target="_blank" rel="noopener">
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-youtube-icon.svg" alt="youtube-icon" class="youtube-icon d-none d-sm-block lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-youtube-icon.svg" />
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-youtube-icon.svg" alt="youtube-icon" class="youtube-icon d-block d-sm-none lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-youtube-icon.svg" />
+    </a>
+    </li>
+    <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link gtm-header" menu-name="Facebook" menu-type="footer" href="https://www.facebook.com/amgenbiotech/" target="_blank" rel="noopener">
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-facebook-icon.svg" alt="facebook-icon" class="facebook-icon d-none d-sm-block lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-facebook-icon.svg" />
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-facebook-icon.svg" alt=" facebook-icon" class="facebook-icon d-block d-sm-none lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-facebook-icon.svg" />
+    </a>
+    </li>
+ <li class="quantum-list-group__item socialIcon">
+    <a class="quantum-list-group__link gtm-header" menu-name="Instagram" menu-type="footer" href="https://www.instagram.com/amgenbiotech/" target="_blank" rel="noopener">
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-instagram-icon.svg" alt="instagram-icon" class="instagram-icon d-none d-sm-block lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-instagram-icon.svg" />
+    <img data-src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-instagram-icon.svg" alt="instagram-icon" class="instagram-icon d-block d-sm-none lozad" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/m-instagram-icon.svg" />
+    </a>
+    </li>
+   
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+            
+<div class="quantum-footer__links-row">
+
+
+                    <a href="../../../contact-us.html" class="  gtm-header quantum-link quantum-footer__link" menu-name="Contact Us"  menu-type="footer" target="">
+                      Contact Us
+                    </a>
+                    <a href="../../../sitemap.html" class="  gtm-header quantum-link quantum-footer__link" menu-name="Sitemap"  menu-type="footer" target="">
+                      Sitemap
+                    </a>
+                    <a href="../../../privacy-statement.html" class="  gtm-header quantum-link quantum-footer__link" menu-name="Privacy Statement"  menu-type="footer" target="">
+                      Privacy Statement
+                    </a>
+                    <a href="javascript:Cookiebot.renew()" class="  gtm-header quantum-link quantum-footer__link" menu-name="Your Cookie Preferences"  menu-type="footer" target="">
+                      Your Cookie Preferences
+                    </a>
+                    <a href="../../../terms-of-use.html" class="  gtm-header quantum-link quantum-footer__link" menu-name="Terms of Use"  menu-type="footer" target="">
+                      Terms of Use
+                    </a>
+</div>
+            
+            <p class="quantum-footer__legal-row">
+                &copy; <a href="https://www.myknot.club/">MyKnot</a>Inc. All Rights Reserved.
+<span class="print-logo"><img height="24" alt="d-amgen-logo" width="100" src="-/media/Themes/CorporateAffairs/amgen-com/amgen-com/images/amgencommigration/Footer/d-amgen-print-logo.png" /></span>
+            </p>
+
+        </div>
+    </div>
+
+
+
+
+            <script>
+                var doPopup = "True";
+            </script>
+    </footer>
+    
+
+<script  defer src="../../../-/media/Base-Themes/NG-Amgen-Google-Tag-Manager/Scripts/AccordinGtmTracking.js"></script><script  defer src="../../../-/media/Base-Themes/NG-Amgen-Google-Tag-Manager/Scripts/BrightCoverVideoGTMTracking.js"></script><script  defer src="../../../-/media/Base-Themes/NG-Amgen-Google-Tag-Manager/Scripts/GTMinlineScript.js"></script><script  defer src="../../../-/media/Base-Themes/NG-Amgen-Google-Tag-Manager/Scripts/GTMinlineScriptCL.js"></script><script  defer src="../../../-/media/Base-Themes/NG-Amgen-Google-Tag-Manager/Scripts/trackGTM.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/alert.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/search-custom.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/jscookie.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/clTabsCL.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/Gtm.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/Gtm%20Phase%20II.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/typekit.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/cl-header-nav-CL.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/8shapes-custom-CL.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/amgen-com-custom.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/cl-footer-CL.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/cl-search-component.js"></script><script  defer src="../../../-/media/Themes/CorporateAffairs/amgen-com/amgen-com/Scripts/zimagelib.js"></script>
+    
+    
+<div class="component plain-html">
+    <div class="component-content">
+<script defer src="../../../-/media/Base-Themes/AMGEN%20Com/Scripts/Featured%20Article.js"></script>
+<script defer src="../../../-/media/Base-Themes/AMGEN%20Com/Scripts/blog-article.js"></script>
+<script defer src="../../../-/media/Base-Themes/AMGEN%20Com/Scripts/bootstrap.js"></script>    </div>
+</div>
+<div class="component plain-html">
+    <div class="component-content">
+<script defer src="../../../-/media/Base-Themes/AMGEN%20Com/Scripts/modal-popup.js"></script>
+<script defer src="../../../-/media/Base-Themes/AMGEN%20Com/Scripts/cl-popup.js"></script>    </div>
+</div>
+</body>
+
+<!-- Mirrored from www.amgen.com/stories/2021/04/applying-the-power-of-omics-to-r-and-d by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Oct 2022 13:41:59 GMT -->
+</html>

@@ -1,0 +1,112 @@
+.quantum-search-link {
+    color: #0f9898;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: roboto;
+}
+
+.quantum-search-content {
+    padding-top: 7px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-right: 13%;
+    margin-left: 10%;
+}
+
+.quantum-spacing-div {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-right: 13%;
+    margin-left: 10%;
+}
+
+.quantum-spacing-div-name {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-right: 13%;
+    margin-left: 10%;
+    color: #0f9898;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: roboto;
+}
+
+.quantum-spacing-div-url {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 13%;
+    margin-left: 10%;
+}
+
+.search-content-highlight {
+    font-weight: bold;
+}
+
+.quantum-search-noresult {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.search-noresults {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.quantum-search--noresults-ul li {
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    color: #464646;
+    padding-bottom: 17px;
+    font-size: 16px;
+}
+
+.quantum-search--noresults-ul li::before {
+    content: "\2022";
+    color: #0f9898;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.quantum-search-noresults-bold {
+    font-weight: bold;
+    color: #464646;
+    font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.quantum-search-noresults-list {
+    margin-left: 15px;
+}
+
+.quantum-search--noresults-ul li::before {
+    content: "\2022";
+    color: #0f9898;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+#search-results .component.container {
+    max-width: 100%;
+    margin: 0;
+}
+
+#search-results .quantum-banner.banner-container-header h1.quantum-banner__title {
+    font-size: 17px;
+}
+
+#search-results .quantum-search-count-message {
+    color: white;
+    font-family: cabin;
+    font-size: 40px;
+}

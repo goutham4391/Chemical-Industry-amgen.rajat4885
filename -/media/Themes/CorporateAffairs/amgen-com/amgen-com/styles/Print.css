@@ -1,0 +1,355 @@
+@media print{
+    /******************************* Generic Code Starts*****************************************/
+        header{
+            display:none;
+        }
+		.main-content-container{
+			padding: 25mm;
+		}
+        .breadcrumbContainer{            
+            max-width: 100%;
+            margin-top: 0px;
+            background-color: #0063c3;
+            padding-bottom: 0px;
+            height:150px;
+        }
+        .breadcrumb.navigation-title{
+			display:none;
+		}
+        .component.container.main-content-container{
+            margin:0 auto;
+        }
+        .amgen-content-info{
+            width:100%;
+            height:100%; 
+        }
+        .main-content-container{
+            max-width:1200px;
+        }
+        .amgen-content-info .component-content{
+            margin-left:100px;
+        }
+        .amgen-content-info .image-section img{
+            margin-right:100px
+        }
+        .amgen-investor-careers-container .col-sm-12.col-md-4.col-lg-4.col-xl-4{
+            width:230px;
+            margin-right:20px;
+        }
+        .amgen-investor-careers-container .col-sm-12.col-md-4.col-lg-4.col-xl-4:last-child{
+            margin-right:0px;
+        }
+        .inner-headings-container>.component-content{
+            margin-bottom: 5px !important;
+        }
+        .quantum-cta.amgen-landing{
+            width:230px;
+            height:145px;
+        }
+        .breadcrumbContainer.blue-background{
+            padding-bottom:0px;
+        }
+        .quantum-cta.amgen-landing{
+            width:230px;
+            height:345px;
+        }
+		.quantum-footer__links-row, .quantum-quicklinks__column{
+			display: none;
+		}
+    footer .quantum-container--secondary{
+        background-color: #fff !important;
+    }
+    .quantum-footer__logo-social-row img{
+        display: none !important;
+    }
+		.print-logo{
+			display: inline-block !important;
+			float: left;
+        }
+    .quantum-footer p.quantum-footer__legal-row{
+        color: #000;
+    }
+        .carousel .slide-info{
+            left: calc(50% - 300px) !important;
+        }
+        /*********************************Generic Code Ends*********************************/
+
+        /*********************************Clinical trial Starts*****************************/
+        .clinical-trails-page .amgen-content-info{
+            margin-bottom: 0 !important;
+        }
+        .clinical-trails-page .amgen-content-info:nth-child(2){
+            padding-left:0 !important;
+        }
+        .clinical-trails-page .component.container.main-content-container{
+            margin-bottom: 0 !important;
+        }
+        .clinical-trails-page .amgen-investor-careers-container{
+        	display:none !important;
+        }
+        .clinical-trails-page .related-links{
+        	display:none !important;
+        }
+        /*********************************Clinical Trial Ends*********************************************/
+
+        /**********************Contact US Page Starts************************/
+        .corporate-headquarters .content-section{
+            right:120px;
+            top:0;
+        }
+	    .contact-right-links{
+			display: none;
+		}
+      
+		.contact-us .main-content-container>.component-content>.row.component.column-splitter:nth-of-type(2) .contactus-box-container.social-media:first-child{
+            margin-top:200px !important;
+        }
+        .contactus-feedback-container{
+            margin-top:350px;
+        }
+        .contact-us .patient-assistance .component-content{
+            padding-top:0;
+        }
+    /**********************Contact US Page Ends*************************/
+
+    /*********************************Responsibility Style Starts*************************************/
+        .responsibility .quantum-hero .quantum-hero__text{
+            margin-left:25%;
+            margin-top:0;
+            height:50px;
+         }
+         .responsibility .breadcrumbContainer.blue-background{
+            height:300px !important;
+            margin-bottom:-20px !important;
+        }
+        .responsibility .breadcrumbContainer.blue-background p{
+            margin-top:40px;
+        }
+        .responsibility .quantum-hero{
+            min-height:450px;
+            height: 450px;
+        }
+        .responsibility .amgen-investor-careers-container,
+        .responsibility .related-links{
+        	display:none !important;
+        }
+        .video-tweets-container{
+            padding-bottom:0;
+        }
+        .responsibility .social-media{
+            padding-top:0 !important;
+        }
+       .related-links-container .col-md-4{
+            width:32% !important;
+            margin-left:0px !important;
+            margin-right:0px !important;
+            margin-bottom:20px;
+        }
+    .related-links-container .amgen-landing .quantum-cta__image-wrap img{
+        width: 100%;
+        height: 210px;
+    }
+        .quantum-cta.amgen-landing .quantum-cta__text .quantum-cta__title{
+            font-size:26px !important;
+        }
+     /*********************************Responsibility Style Ends*************************************/    
+
+     /*********************************Article Pages Style Starts*************************************/
+     .quantum-header{
+         display: none;
+     }
+     .blog-pages .article-banner .breadcrumb .component-content{
+         display:none !important;
+     }
+     @page { 
+         size: auto;  
+         margin-top: 0mm; 
+         margin-bottom: 0mm;
+    }
+    .blog-pages .wb-article-detail.container>div:last-child{
+        display:none;
+    }
+    .blog-pages .article-banner .wrapper-landscape-img .main-section .field-image{
+    	margin-top:20px;
+    }
+    .blog-pages .article-banner .wrapper-landscape-img .main-section .text-section{
+    	bottom:100px;
+    	background-color:#fff !important;
+        left:20px;
+        height:300px;
+    }
+    .blog-pages .wb-article-detail .article-landscape-image .wb-article-content{
+    	padding-top:0 !important;
+    }
+    .blog-pages .article-banner .wrapper-image .main-section .image-section img{
+    	height:300px !important;
+    	width:500px !important;
+    	margin-top:70px !important;
+    }
+    .blog-pages .related-article-component .related-articles{
+    	width:100% !important;
+    }
+    .blog-pages .related-article-component .related-articles .wb-tiles .thumbnail{
+    	width:33% !important;
+    }
+    .related-section.half-background .component-content{
+    	display:none !important;
+    }
+    .blog-pages .teal-background-text{
+    	margin-bottom:0 !important;
+    }
+    .blog-pages .article-banner .text-wrapper.wrapper-bgimage .main-section .field-image img{
+    	display:none !important;
+    }
+	.blog-pages .article-banner .image-section .field-mobile-image.field-image{
+		display: none !important;
+	}
+ /*********************************Article Pages Style Ends*************************************/
+
+/********************************Amgen Home Styles Starts*************************************/
+    .amgen_home .banner-div+.carousel{
+        height:682px !important;
+    }
+    .amgen_home .amgen-investor-careers-container .col-lg-4{
+    	width:230px;
+        height:345px;
+        margin-right: 15px !important;
+    }
+    .amgen_home .quantum-cta.amgen-landing .quantum-cta__text .quantum-cta__title{
+    	font-size:20px !important;
+    }
+    .amgen_home .quantum-cta.amgen-investors.test{
+        width:100% !important;
+      float:none !important;
+      margin-bottom:30px !important;
+	  margin-left: 0 !important;
+	  margin-right: 0 !important;
+    }
+    .amgen_home .quantum-cta.amgen-investors.test a.quantum-cta__inner{
+        width:100% !important;
+		height: 350px;
+        margin-left:10px !important;
+    }
+    .amgen-investor-careers-container#video-component .quantum-cta__text .quantum-cta__title{
+        left: -10.5% !important;
+        margin-bottom:22px !important;
+    }
+	.amgen-investor-careers-container div.col-sm-12.col-md-6.col-lg-6.col-xl-6{
+		width: 100%;
+	}
+     .amgen_home .quantum-cta.careers-with-amgen{
+             width:100% !important;
+         float:none !important;
+     
+     }
+    .amgen_home .quantum-cta.careers-with-amgen a.quantum-cta__inner{
+        width:100% !important;
+        margin-left:10px !important;
+    }
+    .amgen_home .spotlight-tiles{
+    	max-width:100% !important;
+    	width:100% !important;
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
+    .amgen_home .wb-tiles{
+    	width:33% !important;
+    }
+	.wb-tiles .thumbnail img, .wb-tiles .thumbnail .wb-image{
+		width: 100%;
+		height: 160px !important;
+	}
+    .amgen_home .banner-div+.carousel{
+    	margin-bottom:100px !important;
+    }
+    .amgen_home .carousel .slide-info{
+    	min-height:399px !important;
+    }
+	.amgen_home .amgen-landing .quantum-cta__image-wrap img{
+		height: 200px;
+	}
+	.amgen_home .quantum-cta.amgen-landing .quantum-cta__text{
+		top: 120px;
+	}
+    
+/********************************Amgen Home Styles Ends*************************************/
+
+/********************************Product Page Styles Starts*************************************/
+    .products .breadcrumbContainer.blue-background p{
+        width:100% !important;
+    }
+    .products .breadcrumbContainer.blue-background{
+        height:300px !important;
+    }
+    .products .main-content-container{
+        margin-left:30px !important;
+    }
+    .products .inner-headings-container{
+    	display:none !important;
+    }
+    .products .related-links-container{
+        display:none !important;
+    }
+    
+/********************************Product Page Styles Ends*************************************/
+
+/********************************Stories Page Styles Starts*************************************/
+    .listing-page .img-banner-main-div .wb-content{
+        bottom:130px !important;
+    }
+    .listing-page .wb-entry-list{
+    	max-width:100% !important;
+    	width:100% !important;
+        margin-left:0px !important;
+        margin-right:0px !important;
+
+    }
+    .listing-page .wb-entry-list .wb-tiles{
+    	width:33% !important;
+    }
+	.listing-page .wb-entry-list .wb-tiles .wb-content{
+		min-height: 260px;
+		box-shadow: none;
+	}
+/********************************Stories Page Styles Ends*************************************/
+
+/********************************LeaderShip Page Styles Starts*************************************/
+    .with-image .breadcrumbContainer.blue-background h2{
+        padding-left: 82px !important;
+    }
+    .without-image .breadcrumbContainer.blue-background{
+    	height:190px !important;
+    }
+    .main-container-wrapper .quantum-tabs__pane-inner>.component.rich-text:nth-child(2)>.component-content{
+    	padding-left:0 !important;
+    }
+    .main-container-wrapper .quantum-tabs__pane-inner .bod .row .grid-item{
+    	padding-left:0 !important;
+    }
+    /********************************LeaderShip Page Styles Starts*************************************/
+
+    /************************** SubPage Print Page Style Starts *********************************/
+    .sub-page .breadcrumbContainer{
+    	padding-bottom:0 !important;
+    }
+    .sub-page .main-content-container>.component-content{
+    	margin-top:0 !important
+    }
+    .sub-page .main-content-container .rich-text.white-content{
+    	padding-left:25px !important;
+    }
+    .sub-page .main-content-container>.component-content .row.component.column-splitter>div.right-nav{
+    	display:none !important;
+    }
+    .sub-page .main-content-container .left-container .faq-accordion-container{
+    	padding-left:0 !important;
+        padding-right:0 !important;
+        padding-top: 20px !important;
+    }
+    .sub-page .accordion .accordion-navigation, .accordion dd{
+    	margin-left:0 !important;
+    }
+    .sub-page .main-content-container .quick-resources{
+        display:none !important;
+    }
+}

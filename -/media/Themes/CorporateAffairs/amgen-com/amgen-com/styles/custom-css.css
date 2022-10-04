@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/* used in /products/global-patient-safety/adverse-event-reporting */
+.TwoColumnCallout > p {
+    font-size: 16px;
+}
+
+
+/* /contact-us/locations */ 
+.location.panel {
+    margin-top: 30px;
+}
+
+/* needed on the /contact-us */
+.content-section p {
+    margin: 10px 0 !important;
+}
+
+.contact-us .field-link a {
+    font-size: 16px !important;
+}
+
+
+/* adding this for the related links in the /responsibility/responsibility-highlights-report/workplace */
+.white-content-right ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.white-content-right ul li {
+    line-height: 1.2;
+}
+
+
+.white-content-right ul > li > a {
+     font-size: 16px !important;
+
+ }
+
+/* footnotes without having to use reference class */
+
+.footnote {
+	font-size: 14px !important;
+	line-height: 1.5 !important;
+}
+
+ul.image-text-tile-links li a {
+
+color:rgb(0, 99, 195);
+display:block;
+line-height:35px;
+
+}
+
+ul.image-text-tile-links li {
+
+display:inline;
+font-family:HelveticaNeue, "Helvetica Neue", HelveticaNeueRoman, HelveticaNeue-Roman, "Helvetica Neue Roman", Helvetica, Tahoma, Geneva, Arial, sans-serif;
+font-size:16px;
+font-stretch:75%;
+font-style:normal;
+font-weight:400;
+height:auto;
+line-height:24px;
+
+}
+
+ul.image-text-tile-links {
+
+display:inline;
+
+}
+
+div.feature-news-caption, div.feature-news-caption p {
+    line-height: 17px;
+}
+
+.world-wide-container a.external-link::after {
+   content: url(../images/amgencommigration/Common/Icons/external-link-icon.svg);
+   padding-left: 8px;
+}
+
+/* adding bootstrap style here, since it's not included in bootstrap-grid */
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+h3 sup {
+    line-height: 0;
+    font-size: 50%;
+}
+
+
+/* spotlight tile card subhead styling */
+
+/* body > div.component.content.spotlight-tiles.spotlight-tiles > div > div > section:nth-child(4) > div.wb-content > div.wb-title > div > a > span.sub, #featured-news > div.wb.wb-listing > div > main > div.wb-entry-list > section:nth-child(3) > div.wb-content > div.wb-title > a > span.sub {
+font-size:1rem!important;
+line-height:1!important;
+}
+ */
+
+
+.blog-pages .wb-article-detail .blue-quote-text div:not(.quote-text-grey) {
+    text-transform: none !important;
+}

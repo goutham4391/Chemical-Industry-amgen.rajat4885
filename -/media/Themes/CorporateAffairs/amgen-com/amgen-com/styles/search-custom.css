@@ -1,0 +1,297 @@
+
+/*  search-custom.css for search */
+.quantum-top-nav__search {
+    display: none !important;
+}
+
+
+
+@media (max-width: 767px) {
+    
+
+    .quantum-search-results-count {
+        padding-top: 20px;
+    }
+
+    
+
+    .component-content .quantum-search-box-input {
+        width: 88% !important;
+        float: left;
+
+    }
+
+    .component-content .quantum-search-box-button-with-redirect {
+        padding: 0px !important;
+    }
+
+    .quantum-search-suggest {
+        padding: 10px 10px !important;
+    }
+
+    .quantum-search-btn-close {
+        margin: 0 !important;
+        color: white;
+    }
+
+    .quantum-search-box-button-with-redirect {
+        vertical-align: -webkit-baseline-middle;
+
+    }
+
+    .ui-autocomplete {
+        left: 0px !important;
+    }
+
+
+
+
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+}
+
+#ReCaptchContainer {
+    padding-bottom: 10px;
+}
+
+
+
+/* search style */
+.quantum-search-suggest {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .quantum-search-suggest {
+        margin-top: 0px !important;
+    }
+
+    .quantum-search-btn-close {
+        color: white !important;
+        margin-right: 48px !important;
+    }
+}
+
+.quantum-search-suggest {
+    background-color: #003d68;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    /*min-height: 34px;*/
+    padding-right: 32px;
+    z-index: 15;
+}
+
+.quantum-search-box-input {
+    padding: 4px;
+    border: none;
+    background: #f0f0f0;
+    border-left: 1px solid #d2d2d2;
+    padding-left: 20px;
+    width: 60%;
+    font-size: 17px;
+
+}
+
+.quantum-search-suggest .component-content {
+    text-align: right;
+}
+
+.quantum-search-clear {
+    display: none;
+}
+
+.quantum-search-box-button-with-redirect {
+    border: none;
+    float: none;
+    background: #f0f0f0;
+    cursor: pointer;
+    position: relative;
+    right: 48px;
+	height: 20px
+}
+
+.quantum-search-box-button-with-redirect img {
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+}
+
+@media screen and (max-width: 767px) {
+    .quantum-search-box-button-with-redirect img {
+        vertical-align: middle;
+        width: 16px;
+        height: 16px;
+        margin-top: 7px;
+    }
+
+    .quantum-search-box-input {
+        padding: 10px;
+        border: none;
+        background: #f0f0f0;
+        border-left: 1px solid #d2d2d2;
+        padding-left: 20px;
+        width: 60%;
+        font-size: 17px;
+
+    }
+
+    .quantum-search-suggest {
+        min-height: 34px;
+    }
+
+    .quantum-search-btn-close {
+        top: 10px !important;
+        right: 22px;
+    }
+}
+
+.quantum-search-btn-close {
+    font-size: 16px;
+    position: relative;
+    top: 6px;
+    right: 15px;
+
+}
+
+
+
+/* video popup */
+@media screen and (min-width: 768px) {
+    .imageContainer {
+        width: 100%;
+        max-width: 100% !important;
+
+        padding: 30px 0 0 0;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .imageContainer>div:first-child {
+        /* max-width: 1140px; */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .imageContainer>div:first-child {
+        /* max-width: 960px; */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .imageContainer .bc-player-default_default {
+        width: 100%;
+        min-height: 360px;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    
+}
+
+.vjs-poster {
+    background-size: cover;
+}
+
+.vjs-play-progress.vjs-slider-bar {
+    background-color: #f26649;
+}
+
+@media screen and (max-width: 767px) {
+    .bc-player-default_default, .imageContainer {
+        min-height: 210px;
+        max-height: 250px;
+        width: 100%;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 575px) {
+    .search-result-page .quantum-hero--multiple-background-images .quantum-hero__inner {
+        background-position: 12% !important;
+        background-size: cover !important;
+
+    }
+}
+
+.quantum-background--white {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.imageContainer #imageMenu {
+    display: none;
+}
+
+.quantum-search-suggest {
+    margin-top: -18px;
+}
+
+
+
+.quantum-search-results-count .quantum-banner__title {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Arial, sans-serif !important;
+}
+
+.quantum-search-results-count .quantum-results-count {
+
+    font-family: Arial, sans-serif !important;
+    letter-spacing: 3px;
+    color: white;
+    background-color: #003d68;
+    padding: 40px 0px 40px 20px;
+
+}
+
+.quantum-search-result-ul .quantum-spacing-div-name, .quantum-search-result-ul .quantum-spacing-div-url, .quantum-search-result-ul .quantum-search-content {
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+
+
+@supports (-webkit-overflow-scrolling: touch) {
+
+    .quantum-search-btn-close {
+        position: absolute;
+    }
+
+    .quantum-search-suggest .component-content {
+        position: relative;
+    }
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    .quantum-search-btn-close {
+        position: absolute;
+    }
+
+    .quantum-search-suggest .component-content {
+        position: relative;
+    }
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+    .quantum-search-btn-close {
+        position: absolute;
+    }
+
+    .quantum-search-suggest .component-content {
+        position: relative;
+    }
+
+    .quantum-search-box-button-with-redirect {
+        top: 4px;
+    }
+
+}
+
